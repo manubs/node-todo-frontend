@@ -1,0 +1,45 @@
+How to translate your angular8 app with ngx-translate?
+Please go through following blog
+https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-angular8-app-with-ngx-translate
+
+--------------------------------------------------------------------------------
+Add following code in component
+ngOnInit() {
+    this.translate.use(sessionStorage.getItem("language"));
+    this.subscription = this.commonService.getMessage().subscribe(message => {
+      this.language = message;
+      this.translate.use(message);
+    });
+}
+--------------------------------------------------------------------------------
+
+I18N for Table Header Fields
+
+Define table in compliance_en.json as follows
+
+{
+    "myQueue": {
+        "uiElements":{"complaints": "Complaints"},
+        "tableFields": [            
+            {"header":"Issuance Id","field":"issuanceid"},
+            {"header":"Category","field":"issuancecategory"},
+            {"header":"Confidentiality","field":"confidentiality"},
+            {"header":"Priority","field":"Priority"},
+            {"header":"Created On","field":"createdOn"},
+            {"header":"Response Date","field":"responseDate"},
+            {"header":"Pre Submission Date","field":"preSubmissionDate"},
+            {"header":"Status","field":"status"}
+        ]
+    }
+}
+
+In .html file
+
+<ng-template pTemplate="header" let-columns>
+    <tr>
+        <th *ngFor="let col of ('myQueue.tableFields' | translate)">
+        {{col.header}}
+        <!-- {{'myQueue.uiElements.complaints' | translate}} -->
+        </th>
+    </tr>
+</ng-template>

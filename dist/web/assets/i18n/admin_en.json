@@ -1,0 +1,930 @@
+{
+    "common": {
+        "buttons": {
+            "read": "Read",
+            "execute": "Execute",
+            "back": "back",
+            "reset": "Reset",
+            "search": "Search",
+            "create": "Create",
+            "apply": "Apply",
+            "cancel": "Cancel",
+            "ok": "Ok",
+            "approve": "Approve",
+            "reject": "Reject",
+            "save": "Save",
+            "update": "Update",
+            "submit": "Submit",
+            "yes": "Yes",
+            "no": "No",
+            "totalResult": "Total Results",
+            "confirm": "Confirm",
+            "rejectioncomments": "Rejection Comments",
+            "action": "Action",
+            "publish": "Publish",
+            "sendforApproval": "Send for Approval",
+            "submitforApproval": "Submit for Approval",
+            "saveasDraft": "Save as Draft",
+            "view": "View",
+            "all": "All",
+            "approved": "Approve",
+            "public": "Public",
+            "confidential": "Confidential",
+            "internal": "Internal",
+            "totalRecords": "Total Records",
+            "collapseAll": "Collapse All",
+            "expandAll": "Expand All",
+            "next": "Next",
+            "add": "Add",
+            "delete": "Delete",
+            "select": "Select",
+            "saveForApproval": "Save for Approval",
+            "createDocumentMaster": "Create Document Master"
+        }
+    },
+    "docType": {
+        "title": {
+            "documentType": "Document Type",
+            "editDocumentType": "Edit Document Type",
+            "addDocumentType": "Create Document Type",
+            "documentTypeSearch": "Document Type - Search Criteria",
+            "totalResult": "Total Results",
+            "search": "Search",
+            "enter": "Enter",
+            "select": "Select",
+            "isActive": "Is Active"
+        },
+        "fields": {
+            "header": "Basic Filters",
+            "documentTypeCode": "Document Type Code",
+            "documentTypeName": "Document Type Name",
+            "description": "Description",
+            "confidentiality": "Confidentiality",
+            "status": "Approval Status",
+            "isActive": "Is Active",
+            "documentTypeId": "Document Type Id",
+            "documentTypeInfo": "Document Type Info",
+            "reminder1": "Reminder 1",
+            "reminder2": "Reminder 2",
+            "approvalRequired": "Approval Required"
+        },
+        "tableFields": [
+            {
+                "dataField": "name",
+                "header": "Document Type Name",
+                "width": "200px"
+            },
+            {
+                "dataField": "description",
+                "header": "Description",
+                "width": "400px"
+            },
+            {
+                "dataField": "isPublic",
+                "header": "Public",
+                "width": "120px"
+            },
+            {
+                "dataField": "isConfidential",
+                "header": "Confidential",
+                "width": "120px"
+            },
+            {
+                "dataField": "isInternal",
+                "header": "Internal",
+                "width": "120px"
+            },
+            {
+                "dataField": "activeStatus",
+                "header": "Is Active",
+                "width": "120px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Updated On",
+                "width": "200px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Updated By",
+                "width": "200px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "Approval Status",
+                "width": "130px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "50px"
+            }
+        ]
+    },
+    "docMaster": {
+        "title": {
+            "documentMaster": "Document Master",
+            "createDocumentMaster": "Create Document Master",
+            "documentMasterSearch": "Document Master - Search Criteria",
+            "issuingDepartment": "Issuing Department"
+        },
+        "fields": {
+            "header": "Basic Filters",
+            "confidentiality": "Confidentiality",
+            "documentType": "Document Type Name",
+            "mainReferenceNumber": "Main Reference Number",
+            "publicDocumentNumber": "Public Document Number",
+            "status": "Status",
+            "isActive": "Is Active",
+            "documentID": "Document ID",
+            "documentTypeName": "Document Type Name",
+            "publicDocNumber": "Public Document Number",
+            "internalReferenceNumber": "Internal Reference Number",
+            "issuingDepartment": "Issuing Department",
+            "issuingDivision": "Issuing Division",
+            "issuingGroups": "Issuing Groups",
+            "issuingSection": "Issuing Section",
+            "documentoutwardNumber": "Document Outward Number",
+            "fileNumber": "File Number",
+            "approvalStatus": "Approval Status",
+            "year": "Year",
+            "documentDate": "Document Date",
+            "documentDescription": "Document Description",
+            "subject": "Subject",
+            "uploadDocument": "Upload Document",
+            "hrefLink": "Href Link",
+            "addressTo": "Address To",
+            "businessUnitName": "Business Unit Name",
+            "addBusinessUnit": "Add Business Unit",
+            "regulatedEntityName": "Supervised Entity Name",
+            "regulatedEntityCategory": "Supervised Entity Category",
+            "uploadFile": "Upload File",
+            "addBU": "Add Business Unit",
+            "isApprove": "Is Approval Required",
+            "inspRefNumber": "Inspection Reference Number"
+        },
+        "tableFields": [
+            {
+                "dataField": "documentId",
+                "header": "Document ID",
+                "width": "220px"
+            },
+            {
+                "dataField": "documentTypeName",
+                "header": "Document Type Name",
+                "width": "220px"
+            },
+            {
+                "dataField": "subject",
+                "header": "Document Subject",
+                "width": "350px"
+            },
+            {
+                "dataField": "publicDocNumber",
+                "header": "Public Document Number",
+                "width": "200px"
+            },
+            {
+                "dataField": "mainRefNumber",
+                "header": "Main/Inspection Reference Number",
+                "width": "200px"
+            },
+            {
+                "dataField": "confidentilityName",
+                "header": "Confidentiality",
+                "width": "200px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "Approval Status",
+                "width": "200px"
+            },
+            {
+                "dataField": "activeStatus",
+                "header": "Is Active",
+                "width": "140px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Updated On",
+                "width": "175px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Updated By",
+                "width": "175px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "70px"
+            }
+        ],
+        "tableFields2": [
+            {
+                "dataField": "documentId",
+                "header": "Document ID",
+                "width": "220px"
+            },
+            {
+                "dataField": "documentTypeName",
+                "header": "Document Type Name",
+                "width": "220px"
+            },
+            {
+                "dataField": "mainRefNum",
+                "header": "Main/Inspection Reference Number",
+                "width": "200px"
+            },
+            {
+                "dataField": "confidentiality",
+                "header": "Confidentiality",
+                "width": "200px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "70px"
+            }
+        ],
+        "listFields": [
+            {
+                "dataField": "name",
+                "header": "Business Unit Names"
+            },
+            {
+                "dataField": "codePath",
+                "header": "Department Hierarchy"
+            }
+        ]
+    },
+    "businessUnit": {
+        "title": {
+            "mainInformation": "Main Information",
+            "members": "Members",
+            "roles": "Roles"
+        },
+        "fields": {
+            "SE": "Supervised Entity",
+            "seCategory": "Supervised Entity Category",
+            "seType": "Supervised Entity Type",
+            "businessUnitShortName": "Business Unit Short Name",
+            "businessUnitName": "Business Unit Name",
+            "businessUnitType": "Business Unit Type",
+            "businessUnitHeadName": "Business Unit Head Name",
+            "parentBuName": "Parent BU Name",
+            "isActive": "Is Active",
+            "isSsm": "Is SSM",
+            "approvalStatus": "Approval Status",
+            "code": "Code",
+            "name": "Name",
+            "type": "Type",
+            "headName": "Head Name",
+            "lastUpdatedBy": "Last Updated By",
+            "lastUpdatedOn": "Last Updated On",
+            "action": "Action",
+            "reportingToBusinessUnit": "Reporting To Business Unit",
+            "description": "Description",
+            "designation": "Designation",
+            "dateOfAppointment": "Date Of Appointment",
+            "dateOfFormation": "Date Of Formation",
+            "location": "Location",
+            "addressLine1": "Address Line 1",
+            "addressLine2": "Address Line 2",
+            "landmark": "Landmark",
+            "city": "City",
+            "country": "Country",
+            "state": "State",
+            "zipCode": "Zip Code",
+            "contact": "Contact",
+            "contactPerson": "Contact Person",
+            "contactNumber": "Contact Number",
+            "email": "Email",
+            "mergerInformation": "Merger Information",
+            "mergedIntoBusinessUnit": "Merged Into Business Unit",
+            "otherBusinessUnitsMerged": "Other Business Units Merged Into This Business Unit",
+            "date": "Date",
+            "empId": "Emp ID",
+            "userName": "Username"
+        },
+        "tableFields": [
+            {
+                "dataField": "code",
+                "header": "Short Name",
+                "width": "150px"
+            },
+            {
+                "dataField": "name",
+                "header": "Name",
+                "width": "190px"
+            },
+            {
+                "dataField": "businessUnitTypeName",
+                "header": "Type",
+                "width": "150px"
+            },
+            {
+                "dataField": "businessUnitHead",
+                "header": "Head Name",
+                "width": "170px"
+            },
+            {
+                "dataField": "parentName",
+                "header": "Parent Bu Name",
+                "width": "190px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By",
+                "width": "180px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On",
+                "width": "165px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "Approval Status",
+                "width": "180px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active",
+                "width": "100px"
+            },
+            {
+                "dataField": "isSSM",
+                "header": "Is SSM",
+                "width": "100px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "80px"
+            }
+        ],
+        "treeTableFields": [
+            {
+                "dataField": "code",
+                "header": "Short Name",
+                "width": "150px"
+            },
+            {
+                "dataField": "name",
+                "header": "Name",
+                "width": "190px"
+            },
+            {
+                "dataField": "businessUnitTypeName",
+                "header": "Type",
+                "width": "150px"
+            },
+            {
+                "dataField": "businessUnitHead",
+                "header": "Head Name",
+                "width": "170px"
+            },
+            {
+                "dataField": "parentName",
+                "header": "Parent Bu Name",
+                "width": "190px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By",
+                "width": "180px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On",
+                "width": "165px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "Approval Status",
+                "width": "180px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active",
+                "width": "100px"
+            },
+            {
+                "dataField": "isSSM",
+                "header": "Is SSM",
+                "width": "100px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "80px"
+            }
+        ]
+    },
+    "supervisedEntities": {
+        "title": {
+            "supervisedEntity": "Supervised Entity",
+            "supervisedEntityInformation": "Supervised Entity Information",
+            "mainInformation": "Main Information",
+            "members": "Members",
+            "applications": "Applications",
+            "databases": "Databases"
+        },
+        "fields": {
+            "seCategory": "SE Category",
+            "seShortName": "SE Short Name",
+            "seName": "SE Name",
+            "seHeadName": "SE Head Name",
+            "headOffice": "Head Office",
+            "isActive": "Is Active",
+            "approvalStatus": "Approval Status",
+            "lastUpdatedBy": "Last Updated By",
+            "lastUpdatedOn": "Last Updated On",
+            "action": "Action",
+            "seType": "SE Type",
+            "seDescription": "SE Description",
+            "dateOfFormation": "Date Of Formation",
+            "numOfUsersAllocated": "Number Of Users Allocated",
+            "dateOfAppointment": "Date Of Appointment",
+            "seHead": "SE Head",
+            "location": "Location",
+            "addressLine1": "Address Line 1",
+            "addressLine2": "Address Line 2",
+            "landmark": "Landmark",
+            "city": "City",
+            "country": "Country",
+            "state": "State",
+            "zipCode": "Zip Code",
+            "contact": "Contact",
+            "contactPerson": "Contact Person",
+            "contactNumber": "Contact Number",
+            "email": "Email",
+            "mergerInformation": "Merger Information",
+            "mergedIntoSupervisedEntity": "Merged Into Supervised Entity",
+            "otherSupervisedEntityMerged": "Other Supervised Entities Merged Into This Supervised Entity",
+            "date": "Date",
+            "code": "Code",
+            "name": "Name",
+            "empId": "Emp ID",
+            "userName": "Username",
+            "createUser": "Create User",
+            "designation": "Designation",
+            "url": "URL",
+            "purpose": "Purpose",
+            "critically": "Criticality",
+            "applicationInfoList": "Applications Info List",
+            "databasesInfoList": "Databases Info List"
+        },
+        "tableFields": [
+            {
+                "dataField": "code",
+                "header": "SE Short Name",
+                "width": "160px"
+            },
+            {
+                "dataField": "name",
+                "header": "SE Name",
+                "width": "300px"
+            },
+            {
+                "dataField": "recName",
+                "header": "SE Category",
+                "width": "234px"
+            },
+            {
+                "dataField": "bankHead",
+                "header": "SE Head Name",
+                "width": "190px"
+            },
+            {
+                "dataField": "city",
+                "header": "Head Office",
+                "width": "180px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By",
+                "width": "180px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On",
+                "width": "185px"
+            },
+            {
+                "dataField": "approvalStatusId",
+                "header": "Approval Status",
+                "width": "178px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active",
+                "width": "95px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "10px"
+            }
+        ]
+    },
+    "passwordPolicy": {
+        "title": {
+            "passwordPolicy": "Password Policy"
+        },
+        "fields": {
+            "passwordExpiryDuration": "Password Expiry Duration(Days)",
+            "resetPasswordExpiryDuration": "Reset Password Expiry Duration(Minutes)",
+            "maximumInvalidAttempts": "Maximum Invalid Attempts",
+            "activeInactiveDuration": "Account Inactive Duration(Days)",
+            "lastNPasswordPrevented": "Last N Passwords Prevented",
+            "minimumPasswordLength": "Minimum Password Length",
+            "maximumPasswordLength": "Maximum Password Length",
+            "numOfSpecialChars": "Number Of Special Characters",
+            "otpExpiryDuration": "OTP Expiry Duration(Minutes)",
+            "save": "Save"
+        }
+    },
+    "cgmSE": {
+        "fields": {
+            "cgm": "CGM",
+            "seCategory": "SE Category",
+            "se": "SE",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "isActive": "Is Active",
+            "approvalStatus": "Approval Status"
+        },
+        "tableFields": [
+            {
+                "dataField": "cgmName",
+                "header": "CGM",
+                "width": "160px"
+            },
+            {
+                "dataField": "reCategoryName",
+                "header": "SE Category",
+                "width": "160px"
+            },
+            {
+                "dataField": "regulatedEntityName",
+                "header": "SE",
+                "width": "160px"
+            },
+            {
+                "dataField": "startDate",
+                "header": "Start Date",
+                "width": "160px"
+            },
+            {
+                "dataField": "endDate",
+                "header": "End Date",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On",
+                "width": "160px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active",
+                "width": "160px"
+            },
+            {
+                "dataField": "approvalStatusName",
+                "header": "Approval Status",
+                "width": "160px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "80px"
+            }
+        ]
+    },
+    "cgmSSM": {
+        "fields": {
+            "cgm": "CGM",
+            "businessUnit": "Business Unit",
+            "ssm": "SSM",
+            "approvalStatus": "Approval Status",
+            "isActive": "Is Active"
+        },
+        "tableFields": [
+            {
+                "dataField": "cgmName",
+                "header": "CGM",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmBuName",
+                "header": "Business Unit",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmName",
+                "header": "SSM",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On",
+                "width": "160px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active",
+                "width": "160px"
+            },
+            {
+                "dataField": "approvalStatusName",
+                "header": "Approval Status",
+                "width": "160px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "80px"
+            }
+        ]
+    },
+    "ssmSE": {
+        "fields": {
+            "ssm": "SSM",
+            "cgm": "CGM",
+            "seCategory": "SE Category",
+            "se": "SE",
+            "cgmDate": "CGM(Start Date - End Date)",
+            "ssmStartDate": "SSM Start Date",
+            "ssmEndDate": "SSM End Date",
+            "approvalStatus": "Approval Status",
+            "isActive": "Is Active"
+        },
+        "tableFields": [
+            {
+                "dataField": "cgmname",
+                "header": "CGM",
+                "width": "160px"
+            },
+            {
+                "dataField": "reCategoryName",
+                "header": "SE Category",
+                "width": "160px"
+            },
+            {
+                "dataField": "regulaterEntityName",
+                "header": "SE",
+                "width": "160px"
+            },
+            {
+                "dataField": "cgmstartDate",
+                "header": "CGM Start Date",
+                "width": "160px"
+            },
+            {
+                "dataField": "cgmendDate",
+                "header": "CGM End Date",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmname",
+                "header": "SSM",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmstartDate",
+                "header": "SSM Start Date",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmendDate",
+                "header": "SSM End Date",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On",
+                "width": "160px"
+            },
+            {
+                "dataField": "isactive",
+                "header": "Is Active",
+                "width": "160px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "Approval Status",
+                "width": "160px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "80px"
+            }
+        ]
+    },
+    "masterScreen": {
+        "title": {
+            "businessUnitType": "Business Unit Type",
+            "countries": "Countries",
+            "states": "States",
+            "supervisedEntityCategories": "Supervised Entity Categories",
+            "supervisedEntityTypes": "Supervised Entity Types",
+            "areaOfSpecialisation": "Area Of Specialization",
+            "designation": "Designation"
+        },
+        "fields": {
+            "level": "Level",
+            "description": "Description",
+            "isActive": "Is Active",
+            "code": "Code",
+            "name": "Name",
+            "country": "Country",
+            "rank": "Rank",
+            "userType": "User Type"
+        }
+    },
+    "roles": {
+        "title": {
+            "rolesScreen": "Role Screen",
+            "mainInfo": "Main Info",
+            "members": "Members",
+            "businessUnit": "Business Units",
+            "rolesSearchCriteria": "Roles - Search Criteria"
+        },
+        "fields": {
+            "organizaionType": "Organization Type",
+            "roleType": "Role Type",
+            "roleCode": "Role Code",
+            "roleName": "Role Name",
+            "roleDescription": "Role Description",
+            "empId": "EmpId",
+            "userName": "Username",
+            "designation": "Designation",
+            "bu": "Business Unit",
+            "buUnits": "Business Units",
+            "code": "Code",
+            "name": "Name"
+        },
+        "tableFields": [
+            {
+                "dataField": "userTypeCode",
+                "header": "Organization Type",
+                "width": "150px"
+            },
+            {
+                "dataField": "roleType",
+                "header": "Role Type",
+                "width": "150px"
+            },
+            {
+                "dataField": "code",
+                "header": "Code",
+                "width": "150px"
+            },
+            {
+                "dataField": "name",
+                "header": "Name",
+                "width": "250px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By",
+                "width": "200px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On",
+                "width": "200px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "Approval Status",
+                "width": "200px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active",
+                "width": "150px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "10px"
+            }
+        ]
+    },
+    "users": {
+        "title": {
+            "userScreen": "User Screen",
+            "mainInfo": "Main Info",
+            "deviceInfo": "Device Info",
+            "roles": "Roles",
+            "userSearchCriteria": "Users - Search Criteria",
+            "createUser": "Create User"
+        },
+        "fields": {
+            "userType": "User Type",
+            "seCategory": "SE Category",
+            "buUnit": "Business Unit",
+            "empId": "Emp Id",
+            "approvalStatus": "Approval Status",
+            "salutation": "Salutation",
+            "firstName": "First Name",
+            "middleName": "Middle Name",
+            "lastName": "Last Name",
+            "fullName": "Full Name",
+            "designation": "Designation",
+            "emailId": "Email Id",
+            "userName": "User Name",
+            "mobNum": "Mobile Number",
+            "isActive": "Is Active",
+            "isLocked": "Is Locked",
+            "dateOfApp": "Date Of Appointment",
+            "grade": "Grade",
+            "reportingTo": "Reporting To",
+            "specArea": "Specialization Area",
+            "deviceType": "Device Type",
+            "ipAddress": "IP Address",
+            "macId": "Mac ID/Device ID",
+            "roles": "Roles",
+            "code": "Code",
+            "name": "Name",
+            "bu": "Business Unit"
+        },
+        "tableFields": [
+            {
+                "dataField": "empId",
+                "header": "Emp Id",
+                "width": "170px"
+            },
+            {
+                "dataField": "fullName",
+                "header": "Name",
+                "width": "200px"
+            },
+            {
+                "dataField": "emailId",
+                "header": "Email Id",
+                "width": "190px"
+            },
+            {
+                "dataField": "businessUnitName",
+                "header": "Business Unit",
+                "width": "200px"
+            },
+            {
+                "dataField": "designationName",
+                "header": "Designation",
+                "width": "190px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By",
+                "width": "190px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On",
+                "width": "190px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "Approval Status",
+                "width": "140px"
+            },
+            {
+                "dataField": "isLocked",
+                "header": "Is Locked",
+                "width": "120px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active",
+                "width": "120px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "10px"
+            }
+        ]
+    }
+}

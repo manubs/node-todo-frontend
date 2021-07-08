@@ -1,0 +1,31 @@
+{
+    "workqueue": {
+        "buttons": {
+            "back": "वापस",
+            "reset": "रीसेट करें",
+            "search": "खोज",
+            "apply": "लागू",
+            "cancel": "रद्द करना",
+            "approve": "अनुमोदित",
+            "reject": "अस्वीकार",
+            "save": "सहेजें",
+            "update": "अपडेट करें",
+            "add": "जोड़ना",
+            "submit": "जमा",
+            "yes": "हाँ",
+            "no": "नहीं",
+            "clear": "स्पष्ट",
+            "saveasdraft": "मसौदे के रूप में संचित करें",
+            "submitforapproval": "अनुमोदन के लिए सबमिट करें",
+            "invalid": "वैध में",
+            "valid": "मान्य",
+            "ok": "ठीक है",
+            "close": "बंद करे",
+            "totalresult": "कुल परिणाम",
+            "noRecordsFound": "कोई रिकॉर्ड नहीं मिला",
+            "searchcriteria": "खोज मापदंड",
+            "workqueue": "काम कतार",
+            "selecttask": "टास्क टाइप चुनें"
+        }
+    }
+}

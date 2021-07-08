@@ -1,0 +1,900 @@
+{
+    "common": {
+        "buttons": {
+            "read": "पढ़ें",
+            "execute": "कार्यान्वित करें",
+            "back": "वापस",
+            "reset": "रीसेट करें",
+            "search": "खोज",
+            "create": "सृजित करें",
+            "apply": "लागू",
+            "cancel": "रद्द करना",
+            "approve": "अनुमोदित",
+            "reject": "अस्वीकार",
+            "save": "सहेजें",
+            "update": "अपडेट करें",
+            "submit": "प्रस्तुत",
+            "yes": "हाँ",
+            "no": "नहीं",
+            "totalResult": "कुल परिणाम",
+            "confirm": "पुष्टि करें",
+            "rejectioncomments": "अस्वीकृति टिप्पणियाँ",
+            "submitforApproval": "अनुमोदनार्थ प्रस्तुत",
+            "action": "कार्रवाई",
+            "publish": "प्रकाशन हेतु प्रस्तुत",
+            "sendforApproval": "अनुमोदनार्थ भेजें",
+            "saveasDraft": "मसौदे के रूप में सेव करें",
+            "view": "राय",
+            "all": "सब",
+            "public": "सार्वजनिक",
+            "confidential": "गोपनीय",
+            "internal": "आन्तरिक",
+            "totalRecords": "कुल परिणाम",
+            "collapseAll": "सभी को बंद करें",
+            "expandAll": "सभी को विस्तारित करें",
+            "next": "अगला",
+            "add": "जोड़ें",
+            "delete": "हटाएँ",
+            "select": "चुनते हैं",
+            "saveForApproval": "अनुमोदनार्थ सेव करें"
+        }
+    },
+    "docType": {
+        "title": {
+            "documentType": "दस्तावेज़ का प्रकार",
+            "editDocumentType": "दस्तावेज़ प्रकार संपादित करें",
+            "addDocumentType": "दस्तावेज़ प्रकार निर्माण",
+            "documentTypeSearch": "दस्तावेज प्रकार-खोज मानदंड",
+            "totalResult": "कुल परिणाम",
+            "search": "खोज",
+            "enter": "दर्ज",
+            "select": "चुनते हैं",
+            "isActive": "सक्रिय है"
+        },
+        "fields": {
+            "header": "मूल फ़िल्टर",
+            "documentTypeName": "दस्तावेज़ प्रकार नाम",
+            "documentTypeCode": "दस्तावेज़ प्रकार कोड",
+            "description": "वर्णन",
+            "confidentiality": "गोपनीयता",
+            "status": "अनुमोदन स्थिति",
+            "documentTypeId": "दस्तावेज़ प्रकार आईडी",
+            "documentTypeInfo": "दस्तावेज़ प्रकार की जानकारी",
+            "reminder1": "अनुस्मारक 1",
+            "reminder2": "अनुस्मारक 2",
+            "isActive": "सक्रिय है",
+            "approvalRequired": "अनुमोदन अपेक्षित"
+        },
+        "tableFields": [
+            {
+                "dataField": "name",
+                "header": "दस्तावेज़ का प्रकार",
+                "width": "200px"
+            },
+            {
+                "dataField": "description",
+                "header": "वर्णन",
+                "width": "400px"
+            },
+            {
+                "dataField": "isPublic",
+                "header": "सार्वजनिक",
+                "width": "120px"
+            },
+            {
+                "dataField": "isConfidential",
+                "header": "गोपनीय",
+                "width": "120px"
+            },
+            {
+                "dataField": "isInternal",
+                "header": "आन्तरिक",
+                "width": "120px"
+            },
+            {
+                "dataField": "activeStatus",
+                "header": "सक्रिय है",
+                "width": "120px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "को अद्यतित",
+                "width": "200px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अद्यतित",
+                "width": "200px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "अनुमोदन स्थिति",
+                "width": "130px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "50px"
+            }
+        ]
+    },
+    "docMaster": {
+        "title": {
+            "documentMaster": "दस्तावेज़ मास्टर",
+            "createDocumentMaster": "दस्तावेज मास्टर निर्माण",
+            "issuingDepartment": "जारीकर्ता विभाग",
+            "documentMasterSearch": "दस्तावेज मास्टर-खोज मानदंड"
+        },
+        "fields": {
+            "header": "बेसिक फिल्टर",
+            "confidentiality": "गोपनीयता",
+            "documentType": "दस्तावेज़ प्रकार नाम",
+            "mainReferenceNumber": "मुख्य संदर्भ संख्या",
+            "publicDocumentNumber": "सार्वजनिक दस्तावेज़ संख्या",
+            "status": "स्थिति",
+            "documentID": "दस्तावेज़ आईडी",
+            "documentTypeName": "दस्तावेज़ प्रकार नाम",
+            "publicDocNumber": "सार्वजनिक दस्तावेज़ संख्या",
+            "internalReferenceNumber": "आंतरिक संदर्भ संख्या",
+            "issuingDepartment": "जारीकर्ता विभाग",
+            "issuingDivision": "जारी करने का विभाग",
+            "issuingGroups": "समूह जारी करना",
+            "issuingSection": "जारी करना खंड",
+            "documentoutwardNumber": "दस्तावेज़ जावक संख्या",
+            "fileNumber": "फाइल संख्या",
+            "year": "साल",
+            "isActive": "सक्रिय है",
+            "documentDate": "दस्तावेज़ की तारीख़",
+            "documentDescription": "दस्तावेज़ विवरण",
+            "subject": "विषय",
+            "uploadDocument": "दस्तावेज़ अपलोड करें",
+            "hrefLink": "Href लिंक",
+            "addressTo": "को संबोधित",
+            "businessUnitName": "बिजनेस यूनिट का नाम",
+            "addBusinessUnit": "बिजनेस यूनिट जोड़ें",
+            "regulatedEntityName": "पर्यवेक्षित संस्था नाम",
+            "regulatedEntityCategory": "पर्यवेक्षित संस्था श्रेणी",
+            "uploadFile": "फाइल अपलोड करें",
+            "addBU": "कारोबारी इकाई जोड़े",
+            "inspRefNumber": "Inspection Reference Number",
+            "isApprove": "क्या अनुमोदन आवश्यक है",
+            "approvalStatus": "अनुमोदन स्थिति"
+        },
+        "tableFields": [
+            {
+                "dataField": "documentId",
+                "header": "दस्तावेज़ आईडी",
+                "width": "220px"
+            },
+            {
+                "dataField": "documentTypeName",
+                "header": "दस्तावेज़ प्रकार नाम",
+                "width": "220px"
+            },
+            {
+                "dataField": "subject",
+                "header": "विषय",
+                "width": "350px"
+            },
+            {
+                "dataField": "publicDocNumber",
+                "header": "सार्वजनिक दस्तावेज़ संख्या",
+                "width": "200px"
+            },
+            {
+                "dataField": "mainRefNumber",
+                "header": "मुख्य संदर्भ संख्या",
+                "width": "200px"
+            },
+            {
+                "dataField": "confidentilityName",
+                "header": "गोपनीयता",
+                "width": "200px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "अनुमोदन स्थिति",
+                "width": "200px"
+            },
+            {
+                "dataField": "activeStatus",
+                "header": "स्थिति",
+                "width": "140px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "को अद्यतित",
+                "width": "175px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अद्यतित",
+                "width": "175px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "70px"
+            }
+        ],
+        "listFields": [
+            {
+                "dataField": "name",
+                "header": "कारोबारी इकाई नाम"
+            },
+            {
+                "dataField": "codePath",
+                "header": "विभाग पदानुक्रम"
+            }
+        ]
+    },
+    "businessUnit": {
+        "title": {
+            "mainInformation": "मुख्य जानकारी",
+            "members": "सदस्य",
+            "roles": "भूमिका"
+        },
+        "fields": {
+            "SE": "पर्यवेक्षित संस्था",
+            "seCategory": "पर्यवेक्षित संस्था श्रेणी",
+            "seType": "पर्यवेक्षित संस्था प्रकार",
+            "businessUnitShortName": "कारोबारी इकाई छोटा नाम",
+            "businessUnitName": "कारोबारी इकाई नाम",
+            "businessUnitType": "कारोबारी इकाई प्रकार",
+            "businessUnitHeadName": "कारोबारी इकाई प्रमुख का नाम",
+            "parentBuName": "मूल कारोबारी इकाई का नाम",
+            "isActive": "सक्रिय है",
+            "isSsm": "एसएसएम",
+            "approvalStatus": "अनुमोदन की स्थिति",
+            "code": "कोड",
+            "name": "नाम",
+            "type": "प्रकार",
+            "headName": "प्रमुख का नाम",
+            "lastUpdatedBy": "के द्वारा अंतिम अद्यतित",
+            "lastUpdatedOn": "अंतिम अद्यतन की तिथि",
+            "action": "कार्रवाई",
+            "reportingToBusinessUnit": "कारोबारी इकाई को रिपोर्ट",
+            "description": "विवरण",
+            "designation": "पदनाम",
+            "dateOfAppointment": "नियुक्ति तिथि",
+            "dateOfFormation": "निर्माण तिथि",
+            "location": "स्थान",
+            "addressLine1": "पता पंक्ति 1",
+            "addressLine2": "पता पंक्ति 2",
+            "landmark": "लैंडमार्क",
+            "city": "शहर",
+            "country": "देश",
+            "state": "राज्य",
+            "zipCode": "पिन कोड",
+            "contact": "सम्पर्क",
+            "contactPerson": "सम्पर्क व्यक्ति",
+            "contactNumber": "सम्पर्क नम्बर",
+            "email": "ईमेल",
+            "mergerInformation": "विलय की जानकारी",
+            "mergedIntoBusinessUnit": "कारोबारी इकाई में विलय",
+            "otherBusinessUnitsMerged": "इस कारोबारी इकाई में विलयित दूसरी कारोबारी इकाई",
+            "date": "तारीख़",
+            "empId": "कर्मचारी आईडी",
+            "userName": "उपयोगकर्ता नाम"
+        },
+        "tableFields": [
+            {
+                "dataField": "code",
+                "header": "छोटा नाम",
+                "width": "150px"
+            },
+            {
+                "dataField": "name",
+                "header": "नाम",
+                "width": "190px"
+            },
+            {
+                "dataField": "businessUnitTypeName",
+                "header": "प्रकार",
+                "width": "150px"
+            },
+            {
+                "dataField": "businessUnitHead",
+                "header": "प्रमुख का नाम",
+                "width": "170px"
+            },
+            {
+                "dataField": "parentName",
+                "header": "मूल कारोबारी इकाई का नाम",
+                "width": "190px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अंतिम अद्यतित",
+                "width": "180px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "अंतिम अद्यतन की तिथि",
+                "width": "165px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "अनुमोदन की स्थिति",
+                "width": "180px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "सक्रिय है",
+                "width": "100px"
+            },
+            {
+                "dataField": "isSSM",
+                "header": "एसएसएम",
+                "width": "100px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "80px"
+            }
+        ],
+        "treeTableFields": [
+            {
+                "dataField": "code",
+                "header": "छोटा नाम",
+                "width": "150px"
+            },
+            {
+                "dataField": "name",
+                "header": "नाम",
+                "width": "190px"
+            },
+            {
+                "dataField": "businessUnitTypeName",
+                "header": "प्रकार",
+                "width": "150px"
+            },
+            {
+                "dataField": "businessUnitHead",
+                "header": "प्रमुख का नाम",
+                "width": "170px"
+            },
+            {
+                "dataField": "parentName",
+                "header": "मूल कारोबारी इकाई का नाम",
+                "width": "190px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अंतिम अद्यतित",
+                "width": "180px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "अंतिम अद्यतन की तिथि",
+                "width": "165px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "अनुमोदन की स्थिति",
+                "width": "180px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "सक्रिय है",
+                "width": "100px"
+            },
+            {
+                "dataField": "isSSM",
+                "header": "एसएसएम",
+                "width": "100px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "80px"
+            }
+        ]
+    },
+    "supervisedEntities": {
+        "title": {
+            "supervisedEntity": "पर्यवेक्षित संस्था",
+            "supervisedEntityInformation": "पर्यवेक्षित संस्था की जानकारी",
+            "mainInformation": "मुख्य जानकारी",
+            "members": "सदस्य",
+            "applications": "एप्लिकेशन",
+            "databases": "डेटाबेस"
+        },
+        "fields": {
+            "seCategory": "एसई श्रेणी",
+            "seShortName": "एसई छोटा नाम",
+            "seName": "एसई नाम",
+            "seHeadName": "एसई प्रमुख नाम",
+            "headOffice": "मुख्य  कार्यालय",
+            "isActive": "सक्रिय है",
+            "approvalStatus": "अनुमोदन की स्थिति",
+            "lastUpdatedBy": "के द्वारा अंतिम अद्यतित",
+            "lastUpdatedOn": "अंतिम अद्यतन की तिथि",
+            "action": "कार्रवाई",
+            "seType": "पर्यवेक्षित इकाई प्रकार",
+            "seDescription": "एसई का विवरण",
+            "dateOfFormation": "गठन की तिथि",
+            "numOfUsersAllocated": "आबंटित उपयोगकर्ता की सं",
+            "dateOfAppointment": "नियुक्ति तिथि",
+            "seHead": "एसई का प्रमुख",
+            "location": "स्थान",
+            "addressLine1": "पता पंक्ति 1",
+            "addressLine2": "पता पंक्ति 2",
+            "landmark": "लैंडमार्क",
+            "city": "शहर",
+            "country": "देश",
+            "state": "राज्य",
+            "zipCode": "पिन कोड",
+            "contact": "सम्पर्क",
+            "contactPerson": "सम्पर्क व्यक्ति",
+            "contactNumber": "सम्पर्क नम्बर",
+            "email": "ईमेल",
+            "mergerInformation": "विलय जानकारी",
+            "mergedIntoSupervisedEntity": "एसई में विलयित",
+            "otherSupervisedEntityMerged": "इस एसई में विलयित दूसरी एसई",
+            "date": "तारीख़",
+            "code": "कोड",
+            "name": "नाम",
+            "empId": "कर्मचारी आईडी",
+            "userName": "उपयोगकर्ता का नाम",
+            "createUser": "उपयोगकर्ता का सृजन करें",
+            "designation": "पदनाम",
+            "url": "यूआरएल",
+            "purpose": "प्रयोजन",
+            "critically": "तात्कालिकता",
+            "applicationInfoList": "आवेदन सूचना सूची",
+            "databasesInfoList": "डेटाबेस सूचना सूची"
+        },
+        "tableFields": [
+            {
+                "dataField": "code",
+                "header": "एसई छोटा नाम",
+                "width": "160px"
+            },
+            {
+                "dataField": "name",
+                "header": "एसई नाम",
+                "width": "300px"
+            },
+            {
+                "dataField": "recName",
+                "header": "एसई श्रेणी",
+                "width": "234px"
+            },
+            {
+                "dataField": "bankHead",
+                "header": "एसई प्रमुख नाम",
+                "width": "190px"
+            },
+            {
+                "dataField": "city",
+                "header": "मुख्य  कार्यालय",
+                "width": "180px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अंतिम अद्यतित",
+                "width": "180px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "अंतिम अद्यतन की तिथि",
+                "width": "185px"
+            },
+            {
+                "dataField": "approvalStatusId",
+                "header": "अनुमोदन की स्थिति",
+                "width": "178px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "सक्रिय है",
+                "width": "95px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "10px"
+            }
+        ]
+    },
+    "passwordPolicy": {
+        "title": {
+            "passwordPolicy": "पासवर्ड पॉलिसी"
+        },
+        "fields": {
+            "passwordExpiryDuration": "पासवर्ड समापन अवधि (दिन)",
+            "resetPasswordExpiryDuration": "रीसेट करें पासवर्ड समाप्ति अवधि (मिनट)",
+            "maximumInvalidAttempts": "अधिकतम अमान्य कोशिश",
+            "activeInactiveDuration": "अकाउंट निष्क्रिय अवधि (दिन)",
+            "lastNPasswordPrevented": "खारिज अंतिम पासवर्ड",
+            "minimumPasswordLength": "पासवर्ड की न्यूनतम लंबाई",
+            "maximumPasswordLength": "पासवर्ड की अधिकतम लंबाई",
+            "numOfSpecialChars": "विशेष चिह्न की सं",
+            "otpExpiryDuration": "ओटीपी समाप्ति अवधि",
+            "save": "सेव करें"
+        }
+    },
+    "cgmSE": {
+        "fields": {
+            "cgm": "प्रभारी मुख्य महाप्रबंधक",
+            "seCategory": "एसई श्रेणी",
+            "se": "एसई",
+            "startDate": "आरंभ तिथि",
+            "endDate": "समाप्ति तिथि",
+            "isActive": "सक्रिय है",
+            "approvalStatus": "अनुमोदन स्थिति"
+        },
+        "tableFields": [
+            {
+                "dataField": "cgmName",
+                "header": "प्रभारी मुख्य महाप्रबंधक",
+                "width": "160px"
+            },
+            {
+                "dataField": "reCategoryName",
+                "header": "एसई श्रेणी",
+                "width": "160px"
+            },
+            {
+                "dataField": "regulatedEntityName",
+                "header": "एसई",
+                "width": "160px"
+            },
+            {
+                "dataField": "startDate",
+                "header": "आरंभ तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "endDate",
+                "header": "समाप्ति तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अंतिम अद्यतित",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "अद्यतन की अंतिम तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "सक्रिय है",
+                "width": "160px"
+            },
+            {
+                "dataField": "approvalStatusName",
+                "header": "अनुमोदन स्थिति",
+                "width": "160px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "80px"
+            }
+        ]
+    },
+    "cgmSSM": {
+        "fields": {
+            "cgm": "प्रभारी मुख्य महाप्रबंधक",
+            "businessUnit": "कारोबारी इकाई",
+            "ssm": "एसएसएम",
+            "approvalStatus": "अनुमोदन स्थिति",
+            "isActive": "सक्रिय है"
+        },
+        "tableFields": [
+            {
+                "dataField": "cgmName",
+                "header": "प्रभारी मुख्य महाप्रबंधक",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmBuName",
+                "header": "कारोबारी इकाई",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmName",
+                "header": "एसएसएम",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अंतिम अद्यतित",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "अंतिम अद्यतन की तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "सक्रिय है",
+                "width": "160px"
+            },
+            {
+                "dataField": "approvalStatusName",
+                "header": "अनुमोदन की स्थिति",
+                "width": "160px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "80px"
+            }
+        ]
+    },
+    "ssmSE": {
+        "fields": {
+            "ssm": "एसएसएम",
+            "cgm": "प्रभारी मुख्य महाप्रबंधक",
+            "seCategory": "एसई की श्रेणी",
+            "se": "एसई",
+            "cgmDate": "प्रभारी मुख्य महाप्रबंधक (आरंभ तिथि - समाप्ति तिथि)",
+            "ssmStartDate": "एसएसएम आरंभ तिथि",
+            "ssmEndDate": "एसएसएम समाप्ति तिथि",
+            "approvalStatus": "अनुमोदन स्थिति",
+            "isActive": "सक्रिय है"
+        },
+        "tableFields": [
+            {
+                "dataField": "cgmname",
+                "header": "प्रभारी मुख्य महाप्रबंधक",
+                "width": "160px"
+            },
+            {
+                "dataField": "reCategoryName",
+                "header": "एसई की श्रेणी",
+                "width": "160px"
+            },
+            {
+                "dataField": "regulaterEntityName",
+                "header": "एसई",
+                "width": "160px"
+            },
+            {
+                "dataField": "cgmstartDate",
+                "header": "प्रभारी मुख्य महाप्रबंधक आरंभ तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "cgmendDate",
+                "header": "प्रभारी मुख्य महाप्रबंधक समाप्ति तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmname",
+                "header": "एसएसएम",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmstartDate",
+                "header": "एसएसएम आरंभ तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "ssmendDate",
+                "header": "एसएसएम समाप्ति तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अंतिम अद्यतित",
+                "width": "160px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "अंतिम अद्यतन तिथि",
+                "width": "160px"
+            },
+            {
+                "dataField": "isactive",
+                "header": "सक्रिय है",
+                "width": "160px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "अनुमोदन की स्थिति",
+                "width": "160px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "80px"
+            }
+        ]
+    },
+    "masterScreen": {
+        "title": {
+            "businessUnitType": "कारोबारी इकाई प्रकार",
+            "countries": "राष्ट्र",
+            "states": "राज्य",
+            "supervisedEntityCategories": "पर्यवेक्षित संस्था श्रेणी",
+            "supervisedEntityTypes": "पर्यवेक्षित संस्था प्रकार",
+            "areaOfSpecialisation": "विशेषज्ञता का क्षेत्र",
+            "designation": "पदनाम"
+        },
+        "fields": {
+            "level": "स्तर",
+            "description": "विवरण",
+            "isActive": "सक्रिय है",
+            "code": "कोड",
+            "name": "नाम",
+            "country": "देश",
+            "rank": "पद",
+            "userType": "उपभोक्ता प्रकार"
+        }
+    },
+    "roles": {
+        "title": {
+            "rolesScreen": "भूमिका स्क्रीन",
+            "mainInfo": "मुख्य जानकारी",
+            "members": "सदस्य",
+            "businessUnit": "कारोबारी इकाईयाँ",
+            "rolesSearchCriteria": "भूमिका - खोज"
+        },
+        "fields": {
+            "organizaionType": "संस्था का प्रकार",
+            "roleType": "भूमिका  प्रकार",
+            "roleCode": "भूमिका कोड",
+            "roleName": "भूमिका  नाम",
+            "roleDescription": "भूमिका वर्णन",
+            "empId": "कर्मचारी आईडी",
+            "userName": "उपयोगकर्ता नाम",
+            "designation": "पदनाम",
+            "bu": "कारोबारी इकाई",
+            "buUnits": "कारोबारी इकाईयाँ",
+            "code": "कोड",
+            "name": "नाम"
+        },
+        "tableFields": [
+            {
+                "dataField": "userTypeCode",
+                "header": "संस्था का प्रकार",
+                "width": "150px"
+            },
+            {
+                "dataField": "roleType",
+                "header": "भूमिका प्रकार",
+                "width": "150px"
+            },
+            {
+                "dataField": "code",
+                "header": "कोड",
+                "width": "150px"
+            },
+            {
+                "dataField": "name",
+                "header": "नाम",
+                "width": "250px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अंतिम अद्यतित",
+                "width": "200px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "अंतिम अद्यतन की तिथि",
+                "width": "200px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "अनुमोदन स्थिति",
+                "width": "200px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "सक्रिय है",
+                "width": "150px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "10px"
+            }
+        ]
+    },
+    "users": {
+        "title": {
+            "userScreen": "उपयोगकर्ता स्क्रीन",
+            "mainInfo": "मुख्य जानकारी",
+            "deviceInfo": "डिवाइस जानकारी",
+            "roles": "भूमिका",
+            "userSearchCriteria": "उपयोगकर्ता- खोज",
+            "createUser": "उपयोगकर्ता सृजित करें"
+        },
+        "fields": {
+            "userType": "उपयोगकर्ता प्रकार",
+            "seCategory": "पर्यवेक्षित संस्था श्रेणी",
+            "buUnit": "कारोबारी इकाई",
+            "empId": "कर्मचारी आईडी",
+            "approvalStatus": "अनुमोदन स्थिति",
+            "salutation": "अभिवादन",
+            "firstName": "प्रथम नाम",
+            "middleName": "मध्यनाम",
+            "lastName": "कुलनाम",
+            "fullName": "पूरा नाम",
+            "designation": "पदनाम",
+            "emailId": "ईमेल आईडी",
+            "userName": "उपयोगकर्ता का नाम",
+            "mobNum": "मोबाइल नंबर",
+            "isActive": "सक्रिय है",
+            "isLocked": "निष्क्रिय है",
+            "dateOfApp": "नियुक्ति तारीख़",
+            "grade": "ग्रेड",
+            "reportingTo": "को रिपोर्ट किया जा रहा",
+            "specArea": "विशेषज्ञता क्षेत्र",
+            "deviceType": "डिवाइस प्रकार",
+            "ipAddress": "आईपी ऐड्रेस",
+            "macId": "मैक आईडी/ डिवाइस आईडी",
+            "roles": "भूमिका",
+            "code": "कोड",
+            "name": "नाम",
+            "bu": "कारोबारी इकाई"
+        },
+        "tableFields": [
+            {
+                "dataField": "empId",
+                "header": "कर्मचारी आईडी",
+                "width": "170px"
+            },
+            {
+                "dataField": "fullName",
+                "header": "नाम",
+                "width": "200px"
+            },
+            {
+                "dataField": "emailId",
+                "header": "ईमेल आईडी",
+                "width": "190px"
+            },
+            {
+                "dataField": "businessUnitName",
+                "header": "कारोबारी इकाई",
+                "width": "200px"
+            },
+            {
+                "dataField": "designationName",
+                "header": "पदनाम",
+                "width": "190px"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अंतिम अद्यतन",
+                "width": "190px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "को अंतिम अद्यतन",
+                "width": "190px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "अनुमोदन की स्थिति",
+                "width": "140px"
+            },
+            {
+                "dataField": "isLocked",
+                "header": "निष्क्रिय है",
+                "width": "120px"
+            },
+            {
+                "dataField": "isActive",
+                "header": "सक्रिय है",
+                "width": "120px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "10px"
+            }
+        ]
+    }
+}

@@ -1,0 +1,206 @@
+// @mixin btn-color($property) {
+//     background-color: $property !important;
+//     border-color: $property !important;
+//     color: $whiteColorPrimary !important;
+//   }
+
+//   .button-height  {
+//     min-width: 180px !important;
+//     //@extend .height-48;
+//     overflow: hidden;
+//   }
+  
+// .btn,
+// .ui-button,
+// .ui-splitbutton{
+//     @extend .button-height;
+//     color: $primaryColor-A !important;
+//     font-family: Roboto-Medium !important;
+//     font-size: 14px !important;
+//     &.btn-sm{
+//         height: 40px !important;
+//     }
+// }
+// .pageHeader ul.navbar-nav{
+//     @extend .button-height;
+//     overflow: visible;
+// }
+
+
+// .btn,
+// .btn:hover,
+// body .ui-button ,
+// .btn.ui-button:enabled:hover{
+//     border-radius: 0px !important;
+//     background-color: transparent;
+//     border-color: transparent;
+//     color: $graySecondaryColor;
+//     font-size: inherit;
+//     cursor: pointer;
+//     border-width: 2px;
+// }
+
+  .button-height  {
+    // min-width: 180px !important;
+    //@extend .height-48;
+    overflow: hidden;
+  }
+  
+.btn,
+.ui-button,
+.ui-splitbutton{
+    @extend .button-height;
+}
+.pageHeader ul.navbar-nav{
+    @extend .button-height;
+    overflow: visible;
+}
+
+// .btn.focus, .btn:focus {
+//     box-shadow: none;
+// }
+
+.btn,
+.btn:hover,
+body .ui-button ,
+.btn.ui-button:enabled:hover{
+    border-radius: 0px !important;
+    background-color: transparent;
+    border-color: transparent;
+    color: $graySecondaryColor;
+    font-size: inherit;
+    cursor: pointer;
+    line-height: 1;
+}
+
+@mixin btn-color($property, $propsSecondary) {
+    background-color: $property !important;
+    border: 1px solid $property !important;
+    color: $propsSecondary !important;
+  }
+@mixin btn-sec-color($property, $propsSecondary) {
+    background-color: $propsSecondary !important;
+    border: 1px solid $property !important;
+    color: $property !important;
+}
+@mixin btn-tertiary-color($property) {
+    background-color: $whiteColorPrimary !important;
+    border: none  !important;
+    color: $property !important;
+}
+@mixin btn-tertiary-hover-color($property) {
+    background-color: $property !important;
+    border: $property  !important;
+    color: $primaryColor-A !important;
+}
+@mixin btn-common-pro() {
+    border-radius: 3px !important;
+    padding: 0px 15px !important;
+    font-size: 16px !important;
+    height: 35px !important;
+    margin: 0px 8px !important;
+}
+
+// button styles
+.btn-primary{
+    @include btn-color($primaryColor-A, $whiteColorPrimary);
+    @include btn-common-pro();
+}
+.btn-primary:hover{
+    @include btn-color($secondary-A, $whiteColorPrimary);
+    @include btn-common-pro();
+}
+.btn-primary:disabled{
+    @include btn-color($neutral-D, $neutral-B);
+    cursor: not-allowed;
+}
+.btn-secondary{
+    @include btn-sec-color($primaryColor-A, $whiteColorPrimary);
+    @include btn-common-pro();
+}
+.btn-secondary:hover {
+    @include btn-color($primaryColor-D, $primaryColor-A);
+    @include btn-common-pro();
+}
+.btn-secondary:disabled{
+    @include btn-sec-color($neutral-C, $whiteColorPrimary);
+    cursor: not-allowed;
+}
+.btn-tertiary{
+    @include btn-tertiary-color($primaryColor-A);
+    @include btn-common-pro();
+}
+.btn-tertiary:hover{
+    @include btn-tertiary-hover-color($textPrimaryColor);
+    @include btn-common-pro();
+}
+.btn-tertiary:disabled{
+    @include btn-color($neutral-D, $neutral-B);
+    cursor: not-allowed;
+}
+.btn-approved {
+    background-color: $semantic-D;
+    color: #fff;
+    border: 1px solid $semantic-D;
+    @include btn-common-pro();
+}
+.btn-approved:disabled{
+    @include btn-color($neutral-D, $neutral-B);
+    cursor: not-allowed;
+}
+.btn-approved:hover{ 
+    background-color:#229854;
+    color: #fff;
+    border: 1px solid#229854;
+    @include btn-common-pro();
+}
+.btn-back {
+    cursor: pointer;
+    color:$primaryColor-A;
+    text-align: right;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn-border,
+.btn-border:hover {
+    @include btn-color($primaryColor-A, $whiteColorPrimary);
+    background-color: transparent !important;
+    color: $primaryColor-A !important;
+}
+
+.btn-light,
+.btn-light:hover {
+    @include btn-color($primaryColor, $whiteColorPrimary);
+    background-color: transparent !important;
+    color: $primaryColor !important;
+}
+
+// .btn-primary.disabled,
+// .btn-primary:disabled {
+//     @include btn-color(#CCCCCC, $whiteColorPrimary);
+// }
+
+.btn-close,
+.btn-close:hover,
+body .ui-button.btn-close,
+body .ui-button.btn-close:hover,
+body .ui-button.btn-close:enabled:hover {
+    @include btn-color($grayPrimaryColor, $whiteColorPrimary);
+}
+span.close-Btn:hover{
+    background-color: $redColor !important;
+    color: $whiteColorPrimary !important;
+}
+
+.selectAll-btn{
+    &.ui-button.ui-togglebutton {
+        width: 150px;
+        height: 25px !important;
+        line-height: 5px;
+    }
+    &.ui-button .ui-button-text {
+        display: block;
+        line-height: 5px;
+    }
+}
+

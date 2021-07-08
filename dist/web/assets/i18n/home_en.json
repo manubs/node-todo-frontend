@@ -1,0 +1,11 @@
+{
+    "header": {
+        "uiElements": {            
+            "search": "Search",
+            "advanceFilter": "Advance Filter",
+            "myQueue": "My Queue",
+            "notifications": "Notifications",
+            "admin": "Admin"
+        }
+    }
+}

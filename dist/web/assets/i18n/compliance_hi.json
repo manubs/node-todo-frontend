@@ -1,0 +1,462 @@
+{
+    "common": {
+        "buttons": {
+            "back": "वापस",
+            "reset": "रीसेट करें",
+            "search": "खोज",
+            "apply": "लागू",
+            "approve": "अनुमोदित",
+            "reject": "अस्वीकार",
+            "submit": "जमा",
+            "yes": "हाँ",
+            "no": "नहीं",
+            "confirm": "पुष्टि करें",
+            "rejectioncomments": "अस्वीकृति टिप्पणियाँ",
+            "submitforApproval": "अनुमोदनार्थ प्रस्तुत",
+            "action": "कार्रवाई",
+            "publish": "प्रकाशन हेतु प्रस्तुत",
+            "sendforApproval": "अनुमोदनार्थ भेजें",
+            "saveasDraft": "मसौदे के रूप में सेव करें",
+            "view": "राय",
+            "all": "सब",
+            "public": "सार्वजनिक",
+            "confidential": "गोपनीय",
+            "internal": "आन्तरिक",
+            "totalRecords": "कुल परिणाम",
+            "previous": "पिछला",
+            "next": "अगला",
+            "select": "चुनें",
+            "cancel": "निरस्त",
+            "noRecordsFound": "कोई रोकॉर्ड नहीं पाया गया",
+            "totalResults": "कुल परिणाम",
+            "save": "सेव",
+            "update": "अद्यतन",
+            "ok": "Ok",
+            "submitforpublish": "पब्लिश के लिए सबमिट करें",
+            "recallApprove": "Recall Approve",
+            "recallReject": "Recall Reject",
+            "complianceReject": "Reject Compliance",
+            "saveResponse": "जवाब सेव करें"
+        }
+    },
+    "complianceIssuance": {
+        "title": {
+            "documentMaster": "Document Master",
+            "createDocumentMaster": "Create Document Master",
+            "Create Compliance": "अनुपालन निर्माण करें",
+            "issuanceDetails": "निर्गमन ब्योरा"
+        },
+        "fields": {
+            "issuanceBy": "के द्वारा निर्गमन",
+            "issuanceCategory": "निर्गमन श्रेणी",
+            "public": "सार्वजनिक",
+            "confidential": "गोपनीय",
+            "internal": "आन्तरिक",
+            "confidentiality": "गोपनीयता",
+            "complianceTimeLines": "अनुपालन समय-सीमा",
+            "preference": "प्राथमिकता",
+            "onetime": "एक बार",
+            "perpetual": "लगातार",
+            "frequency": "बारंबारता",
+            "compStartDate": "अनुपालन आरंभ तिथि",
+            "compDueDate": "अनुपालन नियत तिथि",
+            "issuanceNo": "निर्गमन संख्या",
+            "department": "विभाग",
+            "recallReason": "स्मरण कारण",
+            "description": "वर्णन",
+            "primaryDocNo": "प्राथमिक दस्तावेज़",
+            "referenceLink": "संदर्भ लिंक्स",
+            "comlianceDepartment": "अनुपालन विभाग",
+            "compBufferDays": "Compliance Buffer Days"
+        }
+    },
+    "complianceAttachments": {
+        "title": {
+            "Document Search / Upload": "दस्तावेज खोज/अपलोड",
+            "Documents List": "दस्तावेज़ सूची"
+        },
+        "fields": {
+            "mainReferenceNumber": "मुख्य संदर्भ संख्या",
+            "publicDocumentNumber": "सार्वजनिक दस्तावेज़ संख्या",
+            "subject": "विषय",
+            "publicIssuanceNumber": "सार्वजनिक निर्गमन संख्या",
+            "documentDescription": "दस्तावेज़ वर्णन",
+            "attach": "संलग्न",
+            "uploadNewDocument": "नया दस्तावेज अपलोड करें",
+            "requestDocumentUpload": "दस्तावेज अपलोड अनुरोध",
+            "documentType": "दस्तावेज़ प्रकार",
+            "isPrimary": "प्राथमिक है",
+            "requestingBusinessUnit": "कारोबारी इकाई हेतु अनुरोध",
+            "comments": "टिप्पणियाँ"
+        },
+        "listFields": [
+            {
+                "dataField": "actionCheck",
+                "header": "संदर्भ",
+                "width": "40px"
+            },
+            {
+                "dataField": "primary",
+                "header": "प्राथमिक",
+                "width": "40px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "40px"
+            },
+            {
+                "dataField": "mainRefNumber",
+                "header": "मुख्य संदर्भ संख्या",
+                "width": "200px"
+            },
+            {
+                "dataField": "confidentilityName",
+                "header": "गोपनीयता",
+                "width": "110px"
+            },
+            {
+                "dataField": "documentTypeName",
+                "header": "दस्तावेज़ प्रकार नाम",
+                "width": "110px"
+            },
+            {
+                "dataField": "documentDate",
+                "header": "दस्तावेज़ तारीख",
+                "width": "110px"
+            },
+            {
+                "dataField": "subject",
+                "header": "विषय",
+                "width": "260px"
+            },
+            {
+                "dataField": "filePath",
+                "header": "File Name",
+                "width": "250px"
+            }
+            
+        ]
+    },
+    "complianceMonitoring": {
+        "title": {
+            "complianceMonitoring": "अनुपालन/निगरानी",
+            "monitoringSupervisoryDepartments": "निगरानी/पर्यवेक्षी विभाग",
+            "compliedBy": "के द्वारा अनुपालन"
+        },
+        "fields": {
+            "supervisedEntityCategory": "पर्यवेक्षित संस्था श्रेणी",
+            "supervisedEntityNames": "पर्यवेक्षित संस्था नाम",
+            "addBusinessUnit": "कारोबारी इकाई जोड़े"
+        },
+        "listFields": [
+            {
+                "dataField": "name",
+                "header": "कारोबारी इकाई नाम"
+            },
+            {
+                "dataField": "codePath",
+                "header": "विभाग पदानुक्रम"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई"
+            }
+        ]
+    },
+    "complianceActionPara": {
+        "title": {
+            "actionPara": "कार्रवाई पैरा"
+        },
+        "fields": {
+            "supervisedEntityCategory": "पर्यवेक्षित संस्था श्रेणी",
+            "uploadExcel": "एक्सेल अपलोड  करें",
+            "downloadTemplate": "टेम्पलेट डाउनलोड करें",
+            "addActionPara": "+कार्रवाई पैरा जोड़े",
+            "actionParaId": "कार्रवाई पैरा आईडी",
+            "referenceSection": "संदर्भ अनुभाग",
+            "responseType": "जवाब प्रकार",
+            "dueDate": "नियत तिथि",
+            "actionParaDescription": "कार्रवाई पैरा वर्णन",
+            "remarks": "िप्पणियों",
+            "viewallRemarks": "सभी टिप्पणियां देखें",
+            "subActionpara": "Sub Action Para",
+            "totalMainActionParas": "कुल कार्रवाई पैरा",
+            "totalSubActionParas": "कुल उप कार्रवाई पैरा",
+            "actionParasSubmitted": "कार्रवाई पारस प्रस्तुत की",
+            "response": "जवाब",
+            "attachFiles": "फाइल संलग्न करें",
+            "subactionParaId": "उप कार्रवाई आईडी",
+            "noRemarksFound": "कोई टिप्पणी नहीं मिली"
+        },
+        "listFields": [
+            {
+                "dataField": "Action Para ID",
+                "header": "कार्रवाई पैरा आईडी"
+            },
+            {
+                "dataField": "Reference Section",
+                "header": "संदर्भ अनुभाग"
+            },
+            {
+                "dataField": "Action Para",
+                "header": "कार्रवाई पैरा"
+            },
+            {
+                "dataField": "Response Type",
+                "header": "जवाब प्रकार"
+            },
+            {
+                "dataField": "Due Date",
+                "header": "नियत तिथि"
+            },
+            {
+                "dataField": "Status",
+                "header": "स्थिति"
+            },
+            {
+                "dataField": "Action",
+                "header": "कार्रवाई"
+            }
+        ],
+        "listFields1": [
+            {
+                "field": "name",
+                "header": "Department Name"
+            },
+            {
+                "field": "code",
+                "header": "Type"
+            },
+            {
+                "field": "action",
+                "header": "कार्रवाई"
+            }
+        ],
+        "complianceCheckerActionParaList": [
+            {
+                "dataField": "actionParaNumber",
+                "header": "संख्या",
+                "width": "70px"
+            },
+            {
+                "dataField": "actionParaDescription",
+                "header": "कार्रवाई",
+                "width": "450px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "स्थिति",
+                "width": "220px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "160px"
+            }
+        ]
+    },
+    "complianceSummary": {
+        "title": {
+            "summary": "सारांश"
+        },
+        "fields": {
+            "resubmitforApproval": "अनुमोदनार्थ पनः प्रस्तुत",
+            "submitforApproval": "अनुमोदनार्थ प्रस्तुत",
+            "complianceId": "निर्गमन आईडी",
+            "issuanceDescription": "निर्गमन वर्णन"
+        },
+        "compliedByList": [
+            {
+                "dataField": "code",
+                "header": "पर्यवेक्षित संस्था कोड"
+            },
+            {
+                "dataField": "name",
+                "header": "पर्यवेक्षित संस्था नाम"
+            },
+            {
+                "dataField": "businessUnitTypeName",
+                "header": "पर्यवेक्षित संस्था श्रेणी"
+            }
+        ],
+        "monitoringlist": [
+            {
+                "field": "name",
+                "header": "कारोबारी इकाई नाम"
+            },
+            {
+                "field": "codePath",
+                "header": "विभाग पदानुक्रम"
+            }
+        ],
+        "actionParaList": [
+            {
+                "dataField": "actionParaNumber",
+                "header": "आईडी"
+            },
+            {
+                "dataField": "actionParaDescription",
+                "header": "कार्रवाई"
+            },
+            {
+                "dataField": "actionParaResponse",
+                "header": "जवाब प्रकार"
+            },
+            {
+                "dataField": "complianceDate",
+                "header": "नियत तिथि"
+            }
+        ]
+    },
+    "complianceSSM": {
+        "title": {
+            "summary": "सारांश",
+            "overview": "समीक्षा",
+            "actionParaOverview": "कार्रवाई पैरा समीक्षा",
+            "complianceProgess": "अनुपालन प्रगति",
+            "actionParas": "कार्रवाई पैरा",
+            "bankNameList": "बैंक नाम सूची",
+            "bankResponse": "बैंक का जवाब",
+            "filters": "फ़िल्टर",
+            "actionParaDetails": "कार्रवाई पैरा ब्योरा"
+        },
+        "fields": {
+            "startDate": "आरंभ तिथि",
+            "dueDate": "नियत तिथि",
+            "respodedDate": "भेजने की तिथ",
+            "complianceRespodedDate": "अनुपालन भेजने की तिथि",
+            "issuanceDepartment": "निर्गमन विभाग",
+            "issuanceName": "निर्गमन नाम",
+            "completedActionParas": "अपूर्ण कार्रवाई पैरा",
+            "notCompletedActionParas": "अनुमोदनार्थ प्रस्तुत",
+            "totalActionParas": "कुल कार्रवाई पैरा",
+            "pdf": "पीडीएफ",
+            "mainActionPara": "मुख्य कार्रवाई पैरा",
+            "subActionPara": "उप कार्रवाई पैरा",
+            "attachments": "संलग्नक",
+            "bankResponse": "बैंक का जवाब",
+            "alerts": "चेतावनी",
+            "totalBanks": "कुल बैंक",
+            "totalActionParasResponse": "कुल कार्रवाई पैरा जवाब",
+            "actionParaDetails": "कार्रवाई पैरा ब्योरा",
+            "complianceHistory": "अनुपालन पूर्ववृत्त",
+            "status": "स्थिति"
+        },
+        "bankResponselist": [
+            {
+                "dataField": "SE Category",
+                "header": "एसई श्रेणी"
+            },
+            {
+                "dataField": "Name",
+                "header": "नाम"
+            },
+            {
+                "dataField": "Responded Action Para",
+                "header": "जवाब दिए गए कार्रवाई पैरा"
+            },
+            {
+                "dataField": "Due Date",
+                "header": "नियत तिथि"
+            }
+        ],
+        "actionParaGrid1": [
+            {
+                "dataField": "description",
+                "header": "कार्रवाई पैरा"
+            },
+            {
+                "dataField": "status",
+                "header": "स्थिति"
+            }
+        ],
+        "actionParaGrid2": [
+            {
+                "dataField": "actionParaDescription",
+                "header": "कार्रवाई पैरा"
+            },
+            {
+                "dataField": "actionparaNo",
+                "header": "संदर्भ संख्या"
+            },
+            {
+                "dataField": "subactionresponse",
+                "header": "बैंक का जवाब"
+            }
+        ]
+    },
+    "complianceResponse": {
+        "title": {
+            "actionParaDetails": "Action Para Details"
+        },
+        "fields": {
+            "actionParaDetails": "Action Para Details",
+            "viewAllResponse":"सभी प्रतिक्रिया देखें"
+        },
+        "actionParaResponseList": [
+            {
+                "dataField": "actionParaDescription",
+                "header": "कार्रवाई पैरा"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "नियत तिथि"
+            },
+            {
+                "dataField": "actionstatus",
+                "header": "स्थिति"
+            }
+        ],
+        "actionParaResponseListChecker": [
+            {
+                "dataField": "select",
+                "header": "चुनें"
+            },
+            {
+                "dataField": "actionParaDescription",
+                "header": "कार्रवाई पैरा"
+            },
+            {
+                "dataField": "actionResponse",
+                "header": "बैंक का जवाब"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "नियत तिथि",
+                "width": "15%"
+            },
+            {
+                "dataField": "statusCode",
+                "header": "स्थिति"
+            },
+            {
+                "dataField": "actionRalertMessageesponse",
+                "header": ""
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "15%"
+            }
+        ],
+        "subactionParaResponseList": [
+            {
+                "dataField": "actionparaNo",
+                "header": "संदर्भ संख्या"
+            },
+            {
+                "dataField": "actionParaDescription",
+                "header": "कार्रवाई पैरा"
+            },
+            {
+                "dataField": "refSectionNo",
+                "header": "संदर्भ अनुभाग"
+            },
+            {
+                "dataField": "subactionresponse",
+                "header": "बैंक का जवाब"
+            }
+        ]
+    }
+}

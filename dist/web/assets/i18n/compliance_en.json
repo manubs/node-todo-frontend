@@ -1,0 +1,517 @@
+{
+    "common": {
+        "buttons": {
+            "back": "back",
+            "reset": "Reset",
+            "search": "Search",
+            "apply": "Apply",
+            "cancel": "Cancel",
+            "approve": "Approve",
+            "reject": "Reject",
+            "save": "Save",
+            "update": "Update",
+            "submit": "Submit",
+            "yes": "Yes",
+            "no": "No",
+            "confirm": "Confirm",
+            "rejectioncomments": "Rejection Comments",
+            "action": "Action",
+            "publish": "Publish",
+            "sendforApproval": "Send for Approval",
+            "submitforApproval": "Send for Approval",
+            "saveasDraft": "Save as Draft",
+            "view": "View",
+            "all": "All",
+            "approved": "Approve",
+            "public": "Public",
+            "uploadFile": "Upload File",
+            "confidential": "Confidential",
+            "internal": "Internal",
+            "totalRecords": "Total Records",
+            "previous": "Previous",
+            "next": "Next",
+            "select": "Select",
+            "noRecordsFound": "No records found",
+            "totalResults": "Total Results",
+            "ok": "Ok",
+            "submitforpublish": "Submit For Publish",
+            "recallApprove": "Recall Approve",
+            "recallReject": "Recall Reject",
+            "complianceReject": "Reject Compliance",
+            "saveResponse": "Save Response"
+        }
+    },
+    "complianceIssuance": {
+        "title": {
+            "documentMaster": "Document Master",
+            "createDocumentMaster": "Create Document Master",
+            "issuanceDetails": "Issuance Details"
+        },
+        "fields": {
+            "issuanceBy": "Issuance By",
+            "issuanceCategory": "Issuance Category",
+            "confidentiality": "Confidentiality",
+            "complianceTimeLines": "Compliance Timelines",
+            "frequency": "Frequency",
+            "preference": "Preference",
+            "onetime": "One-Time",
+            "perpetual": "Perpetual",
+            "compStartDate": "Compliance Start Date",
+            "compDueDate": "Compliance Due Date",
+            "issuanceNo": "Issuance No",
+            "department": "Department",
+            "recallReason": "Recall Reason",
+            "description": "Description",
+            "primaryDocNo": "Primary Document",
+            "referenceLink": "Reference Links",
+            "comlianceDepartment": "Compliance Department",
+            "compBufferDays": "Compliance Buffer Day(s)"
+        }
+    },
+    "complianceAttachments": {
+        "title": {
+            "documentSearchUpload": "Document Search / Upload",
+            "documentsList": "Documents List"
+        },
+        "fields": {
+            "mainReferenceNumber": "Main Reference Number",
+            "mainAndInspNumber":"Main/Inspection Reference Number",
+            "publicDocumentNumber": "Public Document Number",
+            "inspectionRefNumber": "Inspection Reference Number",
+            "subject": "Subject",
+            "publicIssuanceNumber": "Public Issuance Number",
+            "documentDescription": "Document Description",
+            "attach": "Attach",
+            "uploadNewDocument": "Upload New Document",
+            "requestDocumentUpload": "Request Document Upload",
+            "documentType": "Document Type",
+            "isPrimary": "Is Primary",
+            "requestingBusinessUnit": "Requesting Business Unit",
+            "comments": "Comments",
+            "issuingDepartment":"Issuing Department"
+        },
+        "listFields": [
+            {
+                "dataField": "actionCheck",
+                "header": "Reference",
+                "width": "40px"
+            },
+            {
+                "dataField": "primary",
+                "header": "Primary",
+                "width": "40px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "40px"
+            },
+            {
+                "dataField": "mainRefNumber",
+                "header": "Main/Inspection Reference Number",
+                "width": "200px"
+            },
+            {
+                "dataField": "confidentilityName",
+                "header": "Confidentiality",
+                "width": "110px"
+            },
+            {
+                "dataField": "documentTypeName",
+                "header": "Document Type",
+                "width": "110px"
+            },
+            {
+                "dataField": "documentDate",
+                "header": "Document Date",
+                "width": "110px"
+            },
+            {
+                "dataField": "subject",
+                "header": "Subject",
+                "width": "260px"
+            },
+            {
+                "dataField": "issuingDepartment",
+                "header": "Issuing Department",
+                "width": "110px"
+            },
+            {
+                "dataField": "filePath",
+                "header": "File Name",
+                "width": "180px"
+            },
+            {
+                "dataField": "activeStatus",
+                "header": "Is Active",
+                "width": "40px"
+            }
+        ]
+    },
+    "complianceMonitoring": {
+        "title": {
+            "complianceMonitoring": "Compliance/Monitoring",
+            "monitoringSupervisoryDepartments": "Monitoring/Supervisory Department",
+            "compliedBy": "Complied By"
+        },
+        "fields": {
+            "supervisedEntityCategory": "Supervised Entity Category",
+            "supervisedEntityNames": "Supervised Entity Name(s)",
+            "addBusinessUnit": "Add Business Unit"
+        },
+        "listFields": [
+            {
+                "dataField": "name",
+                "header": "Business Unit Name"
+            },
+            {
+                "dataField": "codePath",
+                "header": "Department Hierarchy"
+            },
+            {
+                "dataField": "action",
+                "header": "Action"
+            }
+        ]
+    },
+    "complianceActionPara": {
+        "title": {
+            "actionPara": "Action Para"
+        },
+        "fields": {
+            "supervisedEntityCategory": "Supervised Entity Category",
+            "uploadExcel": "Upload Excel",
+            "downloadTemplate": "Download Template",
+            "addActionPara": "+ Add Action Para",
+            "actionParaId": "Action Para ID",
+            "referenceSection": "Reference Section No",
+            "responseType": "Response Type",
+            "dueDate": "Due Date",
+            "actionParaDescription": "Action Para Description",
+            "remarks": "Remarks",
+            "viewallRemarks": "View All Remarks",
+            "subActionpara": "Sub Action Para",
+            "totalMainActionParas": "Total Main Action Paras",
+            "totalSubActionParas": "Total Sub Action Paras",
+            "actionParasSubmitted": "Action Paras Submitted",
+            "response": "Response",
+            "attachFiles": " Attach Files",
+            "subactionParaId": "Sub Action Para ID",
+            "noRemarksFound": "No Remarks Found"
+        },
+        "listFields": [
+            {
+                "dataField": "actionParaId",
+                "header": "Action Para ID"
+            },
+            {
+                "dataField": "referenceSection",
+                "header": "Reference Section"
+            },
+            {
+                "dataField": "actionPara",
+                "header": "Action Para"
+            },
+            {
+                "dataField": "responseType",
+                "header": "Response Type"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "Due Date"
+            },
+            {
+                "dataField": "status",
+                "header": "Status"
+            },
+            {
+                "dataField": "action",
+                "header": "Action"
+            }
+        ],
+        "listFields1": [
+            {
+                "field": "name",
+                "header": "Department Name"
+            },
+            {
+              "field": "businessUnitTypeName",
+              "header": "Type" 
+            },
+            { 
+                "field": "codePath", 
+                "header": "Department Hierarchy" 
+            },
+            {
+                "field": "action",
+                "header": "Action"
+            }
+        ],
+        "complianceCheckerActionParaList": [
+            {
+                "dataField": "actionParaNumber",
+                "header": "Number",
+                "width": "70px"
+            },
+            {
+                "dataField": "actionParaDescription",
+                "header": "Action Para",
+                "width": "450px"
+            },
+            {
+                "dataField": "approvalStatus",
+                "header": "Status",
+                "width": "220px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "160px"
+            }
+        ]
+    },
+    "complianceSummary": {
+        "title": {
+            "summary": "Summary"
+        },
+        "fields": {
+            "resubmitforApproval": "Resubmit for Approval",
+            "submitforApproval": "Submit for Approval",
+            "complianceId": "Compliance Id",
+            "issuanceDescription": "Issuance Description"
+        },
+        "compliedByList": [
+            {
+                "dataField": "code",
+                "header": "Supervised Entity Code"
+            },
+            {
+                "dataField": "name",
+                "header": "Supervised Entity Name"
+            },
+            {
+                "dataField": "businessUnitTypeName",
+                "header": "Supervised Entity Category"
+            }
+        ],
+        "departmentList": [
+           
+            {
+                "dataField": "name",
+                "header": "Department Name"
+            },
+            {
+                "dataField": "businessUnitTypeName",
+                "header": "Type"
+            },
+            {
+                "dataField": "codePath",
+                "header": "Department Hierarchy"
+            }
+        ],
+        "monitoringlist": [
+            {
+                "field": "name",
+                "header": "Business Unit Names"
+            },
+            {
+                "field": "codePath",
+                "header": "Department Hierarchy"
+            }
+        ],
+        "actionParaList": [
+            {
+                "dataField": "actionParaNumber",
+                "header": "ID"
+            },
+            {
+                "dataField": "actionParaDescription",
+                "header": "Action Para"
+            },
+            {
+                "dataField": "actionParaResponse",
+                "header": "Response Type"
+            },
+            {
+                "dataField": "complianceDate",
+                "header": "Due Date"
+            }
+        ]
+    },
+    "complianceSSM": {
+        "title": {
+            "summary": "Summary",
+            "overview": "Overview",
+            "actionParaOverview": "Action Para Overview",
+            "complianceProgess": "Compliance Progess",
+            "actionParas": "Action Paras",
+            "bankNameList": "Bank Name List",
+            "bankResponse": "Bank Response",
+            "filters": "Filters",
+            "actionParaDetails": "Action Para Details"
+        },
+        "fields": {
+            "startDate": "Start Date",
+            "dueDate": "Due Date",
+            "respodedDate": "Responded Date",
+            "complianceRespodedDate": "Compliance Responded Date",
+            "issuanceDepartment": "Issuance Department",
+            "issuanceName": "Issuance Name",
+            "completedActionParas": "Completed Action Paras",
+            "notCompletedActionParas": "Not Completed Action Paras",
+            "totalActionParas": "Total Action Paras",
+            "pdf": "PDF",
+            "mainActionPara": "Main Action Para",
+            "subActionPara": "Sub Action Para",
+            "attachments": "Attachments",
+            "Bank Response": "bankResponse",
+            "alerts": "Alerts",
+            "Total Banks": "Total Banks",
+            "totalActionParasResponse": "Total ActionPara Response",
+            "actionParaDetails": "Action Para Details",
+            "complianceHistory": "Compliance History",
+            "status": "Status"
+        },
+        "bankResponselist": [
+            {
+                "dataField": "SE Category",
+                "header": "SE Category"
+            },
+            {
+                "dataField": "Name",
+                "header": "Name"
+            },
+            {
+                "dataField": "Responded Action Para",
+                "header": "Responded Action Para"
+            },
+            {
+                "dataField": "Due Date",
+                "header": "Due Date"
+            }
+        ],
+        "actionParaGrid1": [
+            {
+                "dataField": "description",
+                "header": "Action Para"
+            },
+            {
+                "dataField": "status",
+                "header": "Status"
+            }
+        ],
+        "actionParaGrid2": [
+            {
+                "dataField": "actionParaDescription",
+                "header": "Action Para"
+            },
+            {
+                "dataField": "actionparaNo",
+                "header": "Reference Number"
+            },
+            {
+                "dataField": "subactionresponse",
+                "header": "Response"
+            }
+        ]
+    },
+    "complianceResponse": {
+        "title": {
+            "actionParaDetails": "Action Para Details"
+        },
+        "fields": {
+            "actionParaDetails": "Action Para Details",
+            "viewAllResponse": "View All Response"
+        },
+        "actionParaResponseList": [
+            {
+                "dataField": "actionParaDescription",
+                "header": "Action para"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "Due Date"
+            },
+            {
+                "dataField": "actionstatus",
+                "header": "Status"
+            }
+        ],
+        "actionParaResponseListChecker": [
+            {
+                "dataField": "select",
+                "header": "Select"
+            },
+            {
+                "dataField": "actionParaDescription",
+                "header": "Action Para"
+            },
+            {
+                "dataField": "actionResponse",
+                "header": "Response"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "Due Date",
+                "width": "15%"
+            },
+            {
+                "dataField": "statusCode",
+                "header": "Status"
+            },
+            {
+                "dataField": "actionRalertMessageesponse",
+                "header": ""
+            },
+            {
+                "dataField": "action",
+                "header": "Actions",
+                "width": "15%"
+            }
+        ],
+        "subactionParaResponseList": [
+            {
+                "dataField": "actionparaNo",
+                "header": "Number"
+            },
+            {
+                "dataField": "actionParaDescription",
+                "header": "Action Para"
+            },
+            {
+                "dataField": "refSectionNo",
+                "header": "Ref Section No"
+            },
+            {
+                "dataField": "subactionresponse",
+                "header": "Response"
+            }
+        ]
+    },
+    "supervisoryFeed": {
+        "title": {
+            "supervisoryFeed": "Supervisory Feed",
+            "addSuperviosoryFeed": "Add Supervisory Feed",
+            "availableSeCategory": "Available SE Category",
+            "allSeCategory": "All SE Category"
+        },
+        "fields": {
+            "inspProcess": "Inspection Process",
+            "financialYear": "Financial Year",
+            "seCategory": "SE Category",
+            "seName": "SE Name",
+            "refSource": "Reference Source",
+            "refType": "Reference Type",
+            "refDesc": "Reference Description",
+            "documentType": "Document Type",
+            "linkToInspScope": "Link to inspection Scope",
+            "referenceDate": "Reference Date",
+            "refId": "Reference ID",
+            "subRefId": "Sub-Reference ID",
+            "pageNoFrom": "Page No. From",
+            "pageNoTo": "Page No. To",
+            "observations": "Observations",
+            "applicableToAllSe": "Is it applicable to all SE"
+        }
+    }
+}

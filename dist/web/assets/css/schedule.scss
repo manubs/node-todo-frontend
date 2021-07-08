@@ -1,0 +1,32 @@
+body .fc .fc-toolbar .fc-prev-button span,
+body .fc .fc-toolbar .fc-next-button span {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+body .fc .fc-toolbar .fc-prev-button span::before {
+    content: "\f053";
+}
+body .fc .fc-toolbar .fc-next-button span::before {
+    content: "\f054";
+}
+.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active{
+    background-color: var(--primaryColor);
+}
+.fc-toolbar h2 {
+    font-size: 1.2rem;
+}
+body .fc .fc-event {
+    color: #fff;
+}
+.fc-scroller{
+    height: 100% !important;
+    overflow: visible !important;
+}
+.fc .fc-row .fc-content-skeleton table,
+.fc .fc-row .fc-content-skeleton td,
+.fc .fc-row .fc-helper-skeleton td {
+    padding-right: 0.2rem;
+}
+.fc .fc-button-group>* {
+    text-transform: capitalize;
+}

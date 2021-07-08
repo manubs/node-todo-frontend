@@ -1,0 +1,150 @@
+ 
+    $defaultColor: #323E43;
+    $primaryColor: #205DB1;
+    $blackColor: #000000;
+    $secondaryColor: #938FF9;
+    // $redColor: #A30000;
+    $redColor: #B80000;
+    $goldColor: #A37D00;
+    $whiteColorPrimary: #FFFFFF;
+    $whiteColorSecondary: #F8F8F8;
+    $whiteColorThird: #F5F5F5;
+    $whiteColorFour: #EEEEEE;
+    $blackColor: #000000;
+    $grayPrimaryColor: #4E5765;
+    $graySecondaryColor: #575757;
+    $F0F2F8: #F0F2F8;
+    $C525252: #525252;
+    $C808080: #808080;
+    $E3E3E3: #E3E3E3;
+    $C1C1C1C: #1C1C1C;
+    $danger: #E85656;
+    $warning: #BF8F00;
+    $C37474F: #37474F;
+    $C707070: #707070;
+    $activePrimary: #F7F7F7; // #334a5f
+    $tabActivePrimary: #3D6CA9;
+    $C-7C7C7C: #7C7C7C; 
+    $C-f2f2f2: #f2f2f2;
+    $bg-search: #06A9F6;
+    $textPrimaryColor: #DAE4F2;
+
+
+    // primary colors
+    $primaryColor-A: #205DB1;
+    $primaryColor-B: #6FAAFB;
+    $primaryColor-C: #C3DAFF;
+    $primaryColor-D: #D2DEEF;
+    $primaryColor-E: #CBEBFF;
+    
+    // secondary colors
+    $secondary-A: #001a3d;
+    $secondary-B: #3DAB5E;
+
+    // neutral colors
+    $neutral-A: #333333;
+    $neutral-B: #666666;
+    $neutral-C: #C9C9C9;
+    $neutral-D: #E8E8E8;
+    $neutral-E: #EEEEEE;
+    $neutral-F: #FFFFFF;
+
+    // semantic colors
+    $semantic-A: #1B7CCE;
+    $semantic-B: #66B5F8;
+    $semantic-C: #D5E9FA;
+    $semantic-D: #27AE60;
+    $semantic-E: #7EF3AE;
+    $semantic-F: #D6FBE5;
+    $semantic-G: #F9BF1E;
+    $semantic-H: #FFE29D;
+    $semantic-I: #FBF0D6;
+    $semantic-J: #F5782E;
+    $semantic-K: #FFC7A6;
+    $semantic-L: #FFE8DA;
+    $semantic-M: #E74C3C;
+    $semantic-N: #FCACA3;
+    $semantic-O: #FFE1DE;
+
+    // footer colors
+    $footer-A: #EBEFF2;
+    $footer-B: #F8F8F8;
+
+    // gradient
+    $gradient: transparent linear-gradient(258deg, #5191E9 0%, #205DB1 100%) 0% 0% no-repeat padding-box;
+
+
+    
+
+.text-default{color: $defaultColor !important;}
+.text-black{color: $blackColor !important;}
+.bg-default{background-color: $defaultColor !important;}
+
+.text-primary{color: $primaryColor !important;}
+.bg-primary{background-color: $primaryColor !important;}
+
+.text-redColor{color: $redColor !important;}
+.bg-redColor{background-color: $redColor !important;}
+
+.text-whiteColorThird{color: $whiteColorThird !important;}
+.bg-whiteColorThird{background-color: $whiteColorThird !important;}
+
+.text-black{color: $blackColor !important;}
+.bg-black{background-color: $blackColor !important;}
+
+.text-grayPrimaryColor{color: $grayPrimaryColor !important;}
+.bg-grayPrimaryColor{background-color: $grayPrimaryColor !important;}
+
+.text-graySecondaryColor{color: $graySecondaryColor !important;}
+.bg-graySecondaryColor{background-color: $graySecondaryColor !important;}
+
+.text-whiteColorSecondary{color: $whiteColorSecondary !important;}
+.bg-whiteColorSecondary{background-color: $whiteColorSecondary !important;}
+
+.text-F0F2F8{color: $F0F2F8 !important;}
+.bg-F0F2F8{background-color: $F0F2F8 !important;}
+
+.text-C525252{color: $C525252 !important;}
+.bg-C525252{background-color: $C525252 !important;}
+
+.text-E3E3E3{color: $E3E3E3 !important;}
+.bg-E3E3E3{background-color: $E3E3E3 !important;}
+
+.text-1C1C1C{color: $C1C1C1C !important;}
+.bg-1C1C1C{background-color: $C1C1C1C !important;}
+
+.text-danger{color: $redColor !important;}
+.bg-danger{background-color: $redColor !important;}
+
+.text-warning{color: $warning !important;}
+.bg-warning{background-color: $warning !important;}
+
+.text-C37474F{color: $C37474F !important;}
+.bg-C37474F{background-color: $C37474F !important;}
+
+.text-C707070{color: $C707070 !important;}
+.bg-C707070{background-color: $C707070 !important;}
+
+.text-activePrimary{color: $activePrimary !important;}
+.bg-activePrimary{background-color: $activePrimary !important;}
+
+.text-C-7C7C7C{color: $C-7C7C7C !important;}
+.bg-C-7C7C7C{background-color: $C-7C7C7C !important;}
+
+.text-tabActivePrimary{color: $tabActivePrimary !important;}
+.bg-tabActivePrimary{background-color: $tabActivePrimary !important;}
+
+.text-C808080{color: $C808080 !important;}
+.bg-C808080{background-color: $C808080 !important;}
+
+.text-f2f2f2{color: $C-f2f2f2 !important;}
+.bg-f2f2f2{background-color: $C-f2f2f2 !important;}  
+
+.bg-21BDCA{background-color: $bg-search !important;}
+
+.text-blue {color: $textPrimaryColor;}
+
+.bg-blueColor{background-color: $primaryColor-A !important;}
+
+.bg-darkblueColor { background-color: $secondary-A !important;}
+

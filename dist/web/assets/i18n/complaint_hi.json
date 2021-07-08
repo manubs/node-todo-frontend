@@ -1,0 +1,250 @@
+{
+    "common": {
+        "buttons": {
+            "read": "पढ़ें",
+            "execute": "कार्यान्वित करें",
+            "back": "वापस",
+            "reset": "रीसेट करें",
+            "search": "खोज",
+            "create": "सृजित करें",
+            "apply": "लागू",
+            "cancel": "रद्द करना",
+            "approve": "अनुमोदित",
+            "reject": "अस्वीकार",
+            "save": "सहेजें",
+            "update": "अपडेट करें",
+            "submit": "प्रस्तुत",
+            "yes": "हाँ",
+            "no": "नहीं",
+            "totalResults": "कुल परिणाम",
+            "confirm": "पुष्टि करें",
+            "rejectioncomments": "अस्वीकृति टिप्पणियाँ",
+            "submitforApproval": "अनुमोदनार्थ प्रस्तुत",
+            "action": "कार्रवाई",
+            "publish": "प्रकाशन हेतु प्रस्तुत",
+            "sendforApproval": "अनुमोदनार्थ भेजें",
+            "saveasDraft": "मसौदे के रूप में सेव करें",
+            "view": "राय",
+            "all": "सब",
+            "public": "सार्वजनिक",
+            "confidential": "गोपनीय",
+            "internal": "आन्तरिक",
+            "totalRecords": "कुल परिणाम",
+            "collapseAll": "सभी को बंद करें",
+            "expandAll": "सभी को विस्तारित करें",
+            "next": "अगला",
+            "add": "जोड़ें",
+            "delete": "हटाएँ",
+            "select": "चुनते हैं",
+            "saveForApproval": "अनुमोदनार्थ सेव करें",
+            "uploadFile": "अपलोड फाइल",
+            "close": "बंद करें",
+            "send": "भेजें",
+            "noRecordsFound": "कोई रोकॉर्ड नहीं पाया गया"
+        }
+    },
+    "complaintAdmin": {
+        "title": {
+            "createComplaint": "शिकायत बनाएं",
+            "modifyComplaint": "शिकायत को संशोधित करें",
+            "complaintInformation": "शिकायत की जानकारी",
+            "complaintAgainstInfo": "सूचना के खिलाफ शिकायत",
+            "complaintSearchCriteria": "शिकायत - खोज मापदंड",
+            "officeNotesHistory":"कार्यालय नोट्स इतिहास",
+            "responseHistory":"प्रतिक्रिया इतिहास"
+        },
+        "complaintInfo": {
+            "bankId": "एसई आईडी",
+            "noteId": "नोट् आईडी",
+            "officeNoteDesc": "कार्यालय नोट्स विवरण",
+            "addofficeNotes": "कार्यालय नोट्स जोड़ें",
+            "closureRemarks": "बंद करने का िप्पणियों",
+            "addBankDetails": "एसई विवरण जोड़ें",
+            "seCategory": "एसई श्रेणी",
+            "bankName": "एसई नाम",
+            "ssmName": "एसएसएम नाम",
+            "addApprovers": "अनुमोदित जोड़ें",
+            "complaintName": "शिकायत नाम",
+            "letterRefNum": "लेटर संदर्भ संख्या",
+            "uploadAttachments": "अपलोड संलग्नक",
+            "inwardNumber": "आवक संख्या",
+            "inwardNote": "आवक नोट",
+            "complaintCategory": "शिकायत श्रेणी",
+            "otherCategory": "अन्य श्रेणी",
+            "complaintSource": "शिकायत स्रोत",
+            "issueType": "समस्या का प्रकार",
+            "ACG": "",
+            "PPG": "",
+            "complaintSubject": "शिकायत विषय",
+            "complaintDescription": "शिकायत का विवरण",
+            "duplicateReference": "डुप्लिकेट शिकायत संदर्भ",
+            "complaintDate": "शिकायत की तारीख",
+            "dateOfReceipt": "प्राप्ति की तारीख",
+            "complainantName": "शिकायतकर्ता का नाम",
+            "referenceNumber": "संदर्भ संख्या",
+            "referenceDate": "संदर्भित दिनांक",
+            "complaintAttachments": "शिकायत संलग्न",
+            "closeComplaint": "शिकायत बंद करें",
+            "reasonForClosure": "बंद करने का कारण",
+            "outwardNumber": "बाहर का नंबर"
+        },
+        "peerTableFields": [
+            {
+                "dataField": "bankName",
+                "header": "एसई नाम",
+                "width": "185px"
+            },
+            {
+                "dataField": "statusDescriptionSE",
+                "header": "स्थिति",
+                "width": "160px"
+            },
+            {
+                "dataField": "complaintReviewAction",
+                "header": "कार्रवाई",
+                "width": "160px"
+            }
+        ],
+        "complaintDescTableFields": [
+            {
+                "dataField": "select",
+                "header": "चुनते हैं",
+                "width": "130px"
+            },
+            {
+                "dataField": "code",
+                "header": "शिकायत का विवरण",
+                "width": "530px"
+            }
+        ],
+        "listPopupTableFields": [
+            {
+                "dataField": "select",
+                "header": "चुनते हैं",
+                "width": "50px"
+            },
+            {
+                "dataField": "inWardNumber",
+                "header": "आवक संख्या",
+                "width": "330px"
+            },
+            {
+                "dataField": "duplicateCompRef",
+                "header": "शिकायत नाम",
+                "width": "190px"
+            },
+            {
+                "dataField": "subject",
+                "header": "विषय",
+                "width": "290px"
+            }
+        ],
+        "compManageTableFields": [
+            {
+                "dataField": "inwardNumber",
+                "header": "आवक संख्या",
+                "width": "320px"
+            },
+            {
+                "dataField": "issueType",
+                "header": "समस्या का प्रकार",
+                "width": "180px"
+            },
+            {
+                "dataField": "sourceName",
+                "header": "शिकायत स्रोत",
+                "width": "190px"
+            },
+            {
+                "dataField": "categoryName",
+                "header": "शिकायत श्रेणी",
+                "width": "200px"
+            },
+            {
+                "dataField": "statusDescription",
+                "header": "शिकायत अनुमोदन स्थिति",
+                "width": "200px"
+            },
+            {
+                "dataField": "createdOn",
+                "header": "को निर्माण",
+                "width": "190px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "80px"
+            }
+        ],
+        "compManageTableFieldsForSE": [
+            {
+                "dataField": "inwardNumber",
+                "header": "आवक संख्या",
+                "width": "320px"
+            },
+            {
+                "dataField": "statusDescription",
+                "header": "शिकायत अनुमोदन स्थिति",
+                "width": "200px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Updated On",
+                "width": "190px"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई",
+                "width": "80px"
+            }
+        ],
+        "complaintAgainstInfo": {
+            "complaintAgainst": "के खिलाफ शिकायत की",
+            "SE": "एसई",
+            "NOSE": "",
+            "addSE": "Add SE",
+            "seEntity": "पर्यवेक्षित संस्था नाम",
+            "addBusinessUnit": " ",
+            "seCategory": "एसई श्रेणी",
+            "complaintDetails": "शिकायत विवरण",
+            "ssmName": " ",
+            "attachments": "संलग्नक",
+            "bussinessUnit": "व्यापार की इकाई",
+            "buattachments": ""
+        },
+        "allocationDetail": {
+            "allocationDetails": "आवंटन विवरण",
+            "isPeerReferenceRequired": "",
+            "forwardTo": "आगे प्रेषित",
+            "resource": "संसाधन",
+            "selectResource": "संसाधन का चयन करें",
+            "officeNotes": "कार्यालय नोट्स",
+            "viewOfficeNotesHistory": "ऑफिस नोट्स इतिहास देखें",
+            "officeNotesAttachments": "कार्यालय नोट्स संलग्नक",
+            "draftLetterAttachments": "ड्राफ्ट पत्र संलग्नक",
+            "viewAllPeerReviewHistory": "",
+            "viewAllOfficeNotes":"सभी कार्यालय नोट्स देखें"
+        }
+    },
+    "complaintReview": {
+        "title": {
+            "complaintSummary": "शिकायत सारांश"
+        },
+        "fields": {
+            "isNextLevelApprovalRequired": "अगला स्तर स्वीकृति आवश्यक है",
+            "uploadAttachments": "अपलोड संलग्नक",
+            "uploadFile": "अपलोड फाइल",
+            "attachDraftLetter": "संलग्न मसौदा पत्र",
+            "draftLetterAttachments": "मसौदा पत्र संलग्नक",
+            "fairLetterAttachments": "स्वच्छ पत्र अटैचमेंट्स",
+            "officeAttachments": "कार्यालय संलग्नक",
+            "attachments": "संलग्नक",
+            "attachFairLetters": "संलग्न स्वच्छ पत्र",
+            "forwardToOtherDepartment": "अन्य विभाग को अग्रेषित करें",
+            "forwardToSSM": "SSM को अग्रेषित",
+            "approveDraftLetter": "मसौदा पत्र अनुमोदित करें",
+            "requestforClarifications":"स्पष्टीकरण के लिए वापस भेजें ?",
+            "responseNotes": "रिस्पांस नोट्स"
+        }
+    }
+}

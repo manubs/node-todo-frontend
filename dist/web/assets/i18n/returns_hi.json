@@ -1,0 +1,208 @@
+{
+    "common": {
+        "buttons": {
+            "back": "वापस",
+            "reset": "रीसेट करें",
+            "search": "खोज",
+            "saveAsDraft": "मसौदे के रूप में सेव करें",
+            "sendForApproval": "अनुमोदनार्थ भेजें",
+            "save": "सहेजें"
+        }
+    },
+    "returnsFormSearch": {
+        "title": {
+            "returnsFormSearch": "Returns Form- Search Criteria"
+        },
+        "field": {
+            "returnsType": "Returns Type",
+            "versionNumber": "Version Number",
+            "Frequency":"Frequency",
+            "effectiveStartDate":"Effective Start Date",
+            "effectiveEndDate":"Effective End Date",
+            "approvalStatus": "अनुमोदन स्थिति",
+            "isActive":"Is Active",
+            "returnNumber":"Returns Number"
+        },
+        "tableFields": [
+            {
+                "dataField": "returnFormNumber",
+                "header": "Returns Number"
+            },
+            {
+                "dataField": "returnTypeName",
+                "header": "Returns Type"
+            },
+            {
+                "dataField": "versionNumber",
+                "header": "Version Number"
+            },
+            {
+                "dataField": "frequencyTypeName",
+                "header": "Frequency"
+            },
+            {
+                "dataField": "effectiveStartDate",
+                "header": "Effective Start Date"
+            },
+            {
+                "dataField": "effectiveEndDate",
+                "header": "Effective End Date"
+            },
+            {
+                "dataField": "approvalStatusName",
+                "header": "अनुमोदन स्थिति"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अद्यतित"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "को अद्यतित"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई"
+            }
+        ]
+    },
+    "createEditReturnsForm": {
+        "title": {
+            "editReturnsForm": "Edit Returns Form",
+            "createReturnsForm": "Create Returns Form",
+            "addQuestionQroup": "Add Question Group"
+        },
+        "fields": {
+            "returnsType": "Returns Type",
+            "sEType": "SE Type",
+            "sECategory": "SE Category",
+            "sEName": "SE Name",
+            "bUName": "BU Name",
+            "returnsName": "Returns Name",
+            "frequency": "Frequency",
+            "returnsPeriodEndDate": "Returns Period End Date",
+            "submissionDuration(Days)": "Submission Duration (Days)",
+            "periodDueDate": "Submission due date",
+            "submissionDate": "Submission Date",
+            "versionNumber":"Version Number"
+        },
+        "tableHeaders": {
+            "Question": "Questions",
+            "WhetherActionCompleted?(Yes/No/NA)": "Whether Action Completed ? (Yes/No/NA)",
+            "IfNo,Date": "If No, Date",
+            "Mitigatecontrols,if No": "Mitigate controls, if No"
+        }
+    },
+    "returnsResponseSearch": {
+        "title": {
+            "returnsFormSearch": "Returns Response- Search Criteria"
+        },
+        "field": {
+            "returnsType": "Returns Type",
+            "financialYear": "Submission Year",
+            "returnPeriod": "Submission Period",
+            "sE": "SE Name",
+            "seCategory":"SE Category",
+            "dueDate": "Due Date",
+            "submissionDate": "Submission Date",
+            "submissionStatus":"Submission Status",
+            "ApprovalStatus": "अनुमोदन स्थिति",
+            "returnResponseNumber":"Returns Number"
+        },
+        "RBITableFields": [
+            {
+                "dataField": "returnResponseNumber",
+                "header": "Returns Number"
+            },
+            {
+                "dataField": "returnFormNumber",
+                "header": "Returns Number"
+            },
+            {
+                "dataField": "returnTypeName",
+                "header": "Returns Type"
+            },
+            {
+                "dataField": "seCategoryName",
+                "header": "SE Category"
+            },
+            {
+                "dataField": "seName",
+                "header": "SE Name"
+            },
+            {
+                "dataField": "finYear",
+                "header": "Submission Year"
+            },
+            {
+                "dataField": "returnTypePeriodName",
+                "header": "Submission Period"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "Due Date"
+            },
+            {
+                "dataField": "submittionDate",
+                "header": "Submission Date"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई"
+            }
+        ],
+        "OthersTableFields": [
+            {
+                "dataField": "returnResponseNumber",
+                "header": "Returns Type"
+            },
+            {
+                "dataField": "finYear",
+                "header": "Submission Year"
+            },
+            {
+                "dataField": "returnPeriodName",
+                "header": "Submission Period"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "Due Date"
+            },
+            {
+                "dataField": "submittionDate",
+                "header": "Submission Date"
+            },
+            {
+                "dataField": "responseStatusName",
+                "header": "Submission Status"
+            },
+            {
+                "dataField": "approvalStatusName",
+                "header": "अनुमोदन स्थिति"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "के द्वारा अद्यतित"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "को अद्यतित"
+            },
+            {
+                "dataField": "action",
+                "header": "कार्रवाई"
+            }
+        ]
+    },
+    "createEditReturnsResponse": {
+        "title": {
+            "editReturnsResponse": "Edit Returns Response",
+            "modifyReturnsResponse":"Modify Returns Response"
+
+        }
+    }
+}

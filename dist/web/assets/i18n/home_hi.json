@@ -1,0 +1,11 @@
+{
+    "header": {
+        "uiElements": {
+            "search": "खोज",
+            "advanceFilter": "एडवांस फिल्टर",
+            "myQueue": "मेरी कतार",
+            "notifications": "सूचनाएं",
+            "admin": "व्यवस्थापक"            
+        }
+    }
+}

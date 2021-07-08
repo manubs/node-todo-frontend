@@ -1,0 +1,31 @@
+{
+    "workqueue": {
+        "buttons": {
+            "back": "back",
+            "reset": "Reset",
+            "search": "Search",
+            "apply": "Apply",
+            "cancel": "Cancel",
+            "approve": "Approve",
+            "reject": "Reject",
+            "save": "Save",
+            "update": "Update",
+            "add": "Add",
+            "submit": "Submit",
+            "yes": "Yes",
+            "no": "No",
+            "clear": "Clear",
+            "saveasdraft": "Save as Draft",
+            "submitforapproval": "Submit for Approval",
+            "invalid": "In Valid",
+            "valid": "Valid",
+            "ok": "OK",
+            "close": "Close",
+            "totalresult": "Total Results",
+            "noRecordsFound": "No records found",
+            "searchcriteria": "Search Criteria",
+            "workqueue": "Work Queue",
+            "selecttask": "Select Task Type"
+        }
+    }
+}

@@ -1,0 +1,409 @@
+body .ui-tabview .ui-tabview-panel{
+    border: 1px solid #c8c8c8;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav {
+    height: 46px;
+}
+body .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem.ui-state-active .ui-menuitem-link
+{
+    background-color: transparent !important;
+}
+/*====== roots-tabview start ======*/
+body .ui-tabview.ui-tabview-top .ui-tabview-nav{
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ced4da;
+    /*height: 56px;*/
+}
+/* body .ui-tabview.ui-tabview-top .ui-tabview-nav li a{
+    padding: 0.571em 3em;
+} */
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li{
+    border: none;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    height: 100%;
+}
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active a{
+    color: #000;
+}
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-default a,
+body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-default a,
+body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-default a,
+body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-default a {
+    color: $defaultColor;
+    padding: 0.8rem 2.75rem;
+    font-weight: 600;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active:first-child,
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active:hover:first-child{
+    //border-left: none;
+}
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active,
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active:hover{
+    background-color: #ffff;
+    border: none;
+    /* border-top: 4px solid $primaryColor; */
+    border-radius: 0;
+    border-left: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    color: #000;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    height: 100%;
+    outline: 0px;
+}
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active::before
+{
+    transform:scale(1,1);  
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li:hover::before {
+    transform:scale(1,1);
+    background-color: $tabActivePrimary;
+    z-index: 9;
+}
+
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li:hover::before{
+    top:0px;
+}
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: $primaryColor;
+    position: absolute;
+    top:-1px;
+    transform:scale(0,1);
+    transition: all .2s;
+    left: 0;
+}
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover{
+    background-color: transparent;
+    border: none;
+}
+body .ui-tabview.ui-tabview-top{
+    padding: 0;
+}
+body .ui-tabview.ui-tabview-top .ui-tabview-nav{
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+/*====== roots-tabview end ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================ roots-tabmenu styles start ======================================*/
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem,
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem:not(.ui-state-active):not(.ui-state-disabled):hover {
+    border: none;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 0;
+}
+.case360Container .ui-tabmenu .ui-tabmenu-nav {
+    background-color: #f4f4f4;
+}
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem.ui-state-active:first-child{
+    border-left: none;
+}
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem.ui-state-active {
+    background-color: $whiteColorPrimary;
+    border: none;
+    position: relative;
+    /* border-top: 4px solid $primaryColor; */
+    border-radius: 0;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    top: 1px;
+}
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem.ui-state-active::before,
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem:hover::before {
+    transform:scale(1,1);
+}
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem::before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: $primaryColor;
+    position: absolute;
+    top: -1px;
+    transform:scale(0,1);
+    transition: all .2s;
+}
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem.ui-state-active .ui-menuitem-link .ui-menuitem-text {
+    color: #000;
+}
+.case360Container .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem .ui-menuitem-link {
+    padding: 0.571em 1.5em;
+    font-weight: 500;
+}
+/*============================ roots-tabmenu styles end ======================================*/
+
+
+
+
+/*============================ tabmenu with show-more start ======================================*/
+.menu{
+    max-width:100%;
+   }
+   .menu ul{
+     padding: 0;
+     background: #f2f2f2;
+     display: flex;
+     margin-bottom: 0;
+     width: 100%;
+     border-bottom: 1px solid #E5E5E5;
+   }
+   .menu ul.menu_ul{
+     border-bottom: 1px solid #c8c8c8;
+   }
+   .menu ul li{
+     height: 46px;
+     text-align: center;
+     padding: 0.7rem 1rem;
+     float:left;
+     cursor:pointer;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 600;
+     position: relative;
+   }
+   .overflow .dropdown-menu{
+        left: auto !important;
+        right: auto;
+    }
+    .case360Container .ui-tabmenu .ui-tabmenu-nav {
+        padding: 0;
+        background: transparent;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    .overflow .dropdown-menu{
+        padding:0;
+        margin-top: 10px;
+    }
+    .overflow .dropdown-menu a.active{
+        background: #e3e3e3 !important;
+        border-top: none;
+    }
+    .event-filter-content {
+        background-color: #f8f8f8;
+        padding: 30px 10px;
+        margin-bottom: 12px;
+    }
+    
+   
+   .overflow .dropdown-menu {
+        box-shadow: 1px -3px 13px -3px rgba(0,0,0,0.4);
+    }
+   .menu ul li:focus{
+    outline:none;
+   }
+   .menu ul li.active{
+     background: white;
+     top: 1px;
+     border-left: 1px solid #E5E5E5;
+     border-right: 1px solid #E5E5E5;
+     color: #504d8f;
+     font-weight: 600;
+   }
+   .menu ul li.active:first-child{
+        border-left: none;
+    }
+    .menu ul li.active:last-child{
+        border-right: none;
+    }
+   .menu ul li a{
+     padding: 0.650em 0.5em;
+     font-weight: 500;
+     margin: 0px;
+     color: #000;
+   }
+
+   .menu ul li::before  {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: $primaryColor;
+    position: absolute;
+    transform:scale(0,1);
+    transition: all .2s;
+    left: 0;
+    top: -1px;
+
+   }
+
+   .menu ul li.dropdown::before  {
+    content: none !important;
+
+   }
+   .menu ul li.active::before { 
+         content: "";
+         width: 101%;
+         height: 4px;
+         background-color: $primaryColor;
+         position: absolute;
+         transform:scale(1,1);
+         transition: all .2s;
+         left: 0;
+         top: -1px;
+   }
+
+   .menu ul li:hover::before { 
+    content: "";
+    width: 101%;
+    height: 4px;
+    background-color: $tabActivePrimary;
+    position: absolute;
+    transform:scale(1,1);
+    transition: all .2s;
+    left: -1px;
+    top: 0;
+    z-index: 9;
+}
+   .overflow{
+     display:block;
+   }
+   ul.overflow li{
+       float:none;
+   }
+   .dropdown-menu::before{
+       border:none;
+   }
+   .overflow a{
+       cursor:pointer;
+       font-size: inherit;
+   }
+   .overflow .dropdown-toggle
+   {
+     padding:0;
+   }
+   .overflow .dropdown-item.active
+   {
+       background:none;
+   }
+   .overflow .dropdown-item:hover, .overflow .dropdown-item.active {
+     color: #000;
+ }
+
+ body .ui-panel .ui-panel-titlebar {
+     border-bottom: 1px solid #e5e5e5;
+     background-color: #f2f2f2;
+}
+body .filterContainer .ui-panel .ui-panel-titlebar {
+    border-bottom: none;
+    background-color: transparent;
+}
+body .filterContainer .ui-panel .ui-panel-titlebar {
+    padding: 0;
+    height: auto;
+}
+body .filterContainer .ui-panel .ui-panel-content{
+    padding: 0;
+    border-top: 1px solid #CCC;
+}
+
+.tab{
+    display: inline-block;
+    &.active{border-bottom: 3px solid $primaryColor;}
+    &:focus{outline: transparent;}
+}
+
+ /*============================ tabmenu with show-more start ======================================*/
+
+
+
+
+ /*============================ media start ======================================*/
+ @media (min-width: 1200px) and (max-width: 1366px){
+    body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-default a {
+        padding: 0.8rem 1.9rem;
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1199px){
+    body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-default a {
+        padding: 0.8rem 1.5rem;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 991px){
+    body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-default a {
+       padding: 0.4rem 0.5rem !important;
+   }
+ }
+
+ @media (max-width: 1024px){
+    body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-default a {
+        padding: 0.2rem 1.3rem;
+    }
+    body .ui-tabview.ui-tabview-top .ui-tabview-nav {
+        height: 45px;
+     }
+ }
+
+
+ @media (max-width: 766px) and (min-width: 340px){
+    body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-default a {
+        padding: 0.8rem 2.5rem;
+    }
+    body .ui-tabview.ui-tabview-top .ui-tabview-nav {
+        height: 49px;
+     }
+
+  }
+
+  @media (max-width: 320px)  {
+    body .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-left .ui-tabview-nav li.ui-state-default a, 
+    body .ui-tabview.ui-tabview-right .ui-tabview-nav li.ui-state-default a {
+        padding: 0.5rem 1.7rem;
+    }
+  }
+
+
+
+
+
+

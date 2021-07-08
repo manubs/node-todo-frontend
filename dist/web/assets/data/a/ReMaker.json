@@ -1,0 +1,12 @@
+{"result": 
+    [
+        {"id": 0, "description": "Whether the bank has an automated system for inventorising all IT assets ?"},
+        {"id": 1, "description": "Has the bank implemented Database Activity Monitoring (DAM) (Yes/NO)"},
+        {"id": 2, "description": "Whether logs of DAM are integrated in SIEM ?"},
+        {"id": 3, "description": "Does changing customer/employee information (either sensitive fields or information/data having financial implication) from the backend generate any alert for an independent review ?"},
+        {"id": 4, "description": "Has the bank deployed any 'containerised app' model for mobile banking applications?"}
+     
+        
+        
+  ]
+}

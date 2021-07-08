@@ -1,0 +1,208 @@
+{
+    "common": {
+        "buttons": {
+            "back": "Back",
+            "reset": "Reset",
+            "search": "Search",
+            "saveAsDraft": "Save As Draft",
+            "sendForApproval": "Send For Approval",
+            "save": "Save"
+        }
+    },
+    "returnsFormSearch": {
+        "title": {
+            "returnsFormSearch": "Returns Form - Search Criteria"
+        },
+        "field": {
+            "returnsType": "Returns Type",
+            "versionNumber": "Version Number",
+            "Frequency":"Frequency",
+            "effectiveStartDate":"Effective Start Date",
+            "effectiveEndDate":"Effective End Date",
+            "approvalStatus": "Approval Status",
+            "isActive":"Is Active",
+            "returnNumber":"Returns Number"
+        },
+        "tableFields": [
+            {
+                "dataField": "returnFormNumber",
+                "header": "Returns Number"
+            },
+            {
+                "dataField": "returnTypeName",
+                "header": "Returns Type"
+            },
+            {
+                "dataField": "versionNumber",
+                "header": "Version Number"
+            },
+            {
+                "dataField": "frequencyTypeName",
+                "header": "Frequency"
+            },
+            {
+                "dataField": "effectiveStartDate",
+                "header": "Effective Start Date"
+            },
+            {
+                "dataField": "effectiveEndDate",
+                "header": "Effective End Date"
+            },
+            {
+                "dataField": "approvalStatusName",
+                "header": "Approval Status"
+            },
+            {
+                "dataField": "isActive",
+                "header": "Is Active"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On"
+            },
+            {
+                "dataField": "action",
+                "header": "Action"
+            }
+        ]
+    },
+    "createEditReturnsForm": {
+        "title": {
+            "editReturnsForm": "Edit Returns Form",
+            "createReturnsForm": "Create Returns Form",
+            "addQuestionQroup": "Add Question Group"
+        },
+        "fields": {
+            "returnsType": "Returns Type",
+            "sEType": "SE Type",
+            "sECategory": "SE Category",
+            "sEName": "SE Name",
+            "bUName": "BU Name",
+            "returnsName": "Returns Name",
+            "frequency": "Frequency",
+            "returnsPeriodEndDate": "Returns Period End Date",
+            "submissionDuration(Days)": "Submission Duration (Days)",
+            "periodDueDate": "Submission due date",
+            "submissionDate": "Submission Date",
+            "versionNumber":"Version Number"
+        },
+        "tableHeaders": {
+            "Question": "Questions",
+            "WhetherActionCompleted?(Yes/No/NA)": "Whether Action Completed ? (Yes/No/NA)",
+            "IfNo,Date": "If No, Date",
+            "Mitigatecontrols,if No": "Mitigate controls, if No"
+        }
+    },
+    "returnsResponseSearch": {
+        "title": {
+            "returnsFormSearch": "Returns Response- Search Criteria"
+        },
+        "field": {
+            "returnsType": "Returns Type",
+            "financialYear": "Submission Year",
+            "returnPeriod": "Submission Period",
+            "sE": "SE Name",
+            "seCategory":"SE Category",
+            "dueDate":"Due Date",
+            "submissionDate":"Submission Date",
+            "submissionStatus":"Submission Status",
+            "ApprovalStatus": "Approval Status",
+            "returnResponseNumber":"Returns Number"
+        },
+        "RBITableFields": [
+            {
+                "dataField": "returnResponseNumber",
+                "header": "Returns Number"
+            },
+            {
+                "dataField": "returnTypeName",
+                "header": "Returns Type"
+            },
+            {
+                "dataField": "seCategoryName",
+                "header": "SE Category"
+            },
+            {
+                "dataField": "seName",
+                "header": "SE Name"
+            },
+            {
+                "dataField": "finYear",
+                "header": "Submission Year"
+            },
+            {
+                "dataField": "returnTypePeriodName",
+                "header": "Submission Period"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "Due Date"
+            },
+            {
+                "dataField": "submittionDate",
+                "header": "Submission Date"
+            },
+            {
+                "dataField": "action",
+                "header": "Action"
+            }
+        ],
+        "OthersTableFields": [
+            {
+                "dataField": "returnResponseNumber",
+                "header": "Returns Number"
+            },
+            {
+                "dataField": "returnTypeName",
+                "header": "Returns Type"
+            },
+            {
+                "dataField": "finYear",
+                "header": "Submission Year"
+            },
+            {
+                "dataField": "returnTypePeriodName",
+                "header": "Submission Period"
+            },
+            {
+                "dataField": "dueDate",
+                "header": "Due Date"
+            },
+            {
+                "dataField": "submittionDate",
+                "header": "Submission Date"
+            },
+            {
+                "dataField": "responseStatusName",
+                "header": "Submission Status"
+            },
+            {
+                "dataField": "approvalStatusName",
+                "header": "Approval Status"
+            },
+            {
+                "dataField": "updatedBy",
+                "header": "Last Updated By"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Last Updated On"
+            },
+            {
+                "dataField": "action",
+                "header": "Action"
+            }
+        ]
+    },
+    "createEditReturnsResponse": {
+        "title": {
+            "editReturnsResponse": "Edit Returns Response",
+            "modifyReturnsResponse":"Modify Returns Response"
+
+        }
+    }
+}

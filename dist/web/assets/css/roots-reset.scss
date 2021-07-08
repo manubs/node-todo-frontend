@@ -1,0 +1,134 @@
+body .ui-widget-content{
+    border: none;
+}
+/*====================== font-size inherits ===================*/
+
+body .ui-button,
+body .ui-widget,
+body .ui-widget .ui-widget, 
+body .ui-widget input, 
+body .ui-widget select, 
+body .ui-widget textarea, 
+body .ui-widget button,
+body .ui-widget, 
+body .ui-widget .ui-widget, 
+body .ui-widget input, 
+body .ui-widget select, 
+body .ui-widget textarea, 
+body .ui-widget button
+{
+    font-size: inherit;
+}
+
+
+/*====================== font-family inherits ===================*/
+body .ui-widget, 
+body .ui-widget .ui-widget, 
+body .ui-widget input, 
+body .ui-widget select, 
+body .ui-widget textarea, 
+body .ui-widget button,
+body .ui-widget, 
+body .ui-widget .ui-widget, 
+body .ui-widget input, 
+body .ui-widget select, 
+body .ui-widget textarea, 
+body .ui-widget button,
+.form-control
+{
+    font-family: inherit;
+    border-radius: 0;
+}
+
+body .ui-multiselect {
+    padding: 0 !important;
+}
+.ui-multiselect .ui-multiselect-label{
+    margin-bottom: 0 !important;
+}
+body .ui-multiselect:not(.ui-state-disabled) .ui-multiselect-trigger:hover,
+body .ui-multiselect:not(.ui-state-disabled):hover .ui-multiselect-trigger {
+    background-color: transparent;
+}
+body .ui-datepicker .ui-datepicker-header .ui-datepicker-prev span,
+body .ui-datepicker .ui-datepicker-header .ui-datepicker-next span {
+    display: block;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    height: 0.8em;
+}
+body .ui-datepicker .ui-datepicker-header .ui-datepicker-prev::before {
+    content: "";
+}
+body .ui-datepicker .ui-datepicker-header .ui-datepicker-next::before {
+    content: "";
+}
+
+.ui-multiselect-panel .ui-multiselect-item label{
+    margin-bottom: 0 !important;
+}
+.ui-multiselect-header .ui-multiselect-filter-container .ui-multiselect-filter-icon {
+    top: 50%;
+    margin-top: -.5em;
+    right: .5em;
+    left: auto;
+}
+
+
+body .ui-radiobutton .ui-radiobutton-box.ui-state-active .ui-radiobutton-icon.fa-circle {
+    background-color: #ffffff;
+}
+
+
+body .ui-radiobutton {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    .ui-radiobutton-box .ui-radiobutton-icon {
+        background: transparent;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -5px;
+        margin-top: -5px;
+        -moz-transition: background-color 0.2s;
+        -o-transition: background-color 0.2s;
+        -webkit-transition: background-color 0.2s;
+        transition: background-color 0.2s;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+    .ui-radiobutton-box {
+        border: 1px solid #a6a6a6;
+        background-color: #ffffff;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        position: relative;
+        -moz-transition: background-color 0.2s, border-color 0.2s;
+        -o-transition: background-color 0.2s, border-color 0.2s;
+        -webkit-transition: background-color 0.2s, border-color 0.2s;
+        transition: background-color 0.2s, border-color 0.2s;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+    + label{
+        margin: 0;
+        margin-left: 0.5rem;
+    }
+}
+
+
+
+
+
+
+

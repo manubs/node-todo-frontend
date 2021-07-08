@@ -1,0 +1,45 @@
+.breadCrumb{
+    margin-bottom: 2px;
+}
+.breadCrumb .ui-breadcrumb ul {
+    line-height: 0px;
+}
+.breadCrumb .ui-breadcrumb .ui-menuitem-text {
+    line-height: 12px;
+}
+// .breadCrumb .ui-breadcrumb ul li:first-child {
+//     font-size: 14px;
+// }
+.breadCrumb .ui-breadcrumb ul li:first-child a,
+.breadCrumb .ui-breadcrumb ul li .ui-menuitem-link{
+    /* font-family: 'Helvetica-Regular', sans-serif; */
+    color: $primaryColor-A;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    //align-items: center;
+
+}
+.breadCrumb .ui-breadcrumb ul li:last-child a{
+     color: inherit; 
+    cursor: default;
+}
+.breadCrumb .fa-chevron-right:before {
+    content: "\002F";
+    font-size: 0.775rem !important;
+    color: $primaryColor;
+}
+.breadCrumb .ui-breadcrumb ul li.ui-breadcrumb-chevron {
+    margin: 0 0.1em 0 0.1em;
+}
+.breadCrumb .ui-breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    height: 16px;
+    //font-size: 14px;
+    overflow: hidden;
+    border:none;
+}
+.breadCrumb .ui-breadcrumb ul li:first-child{
+    margin-left: 0;
+}

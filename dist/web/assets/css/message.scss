@@ -1,0 +1,143 @@
+.message{
+    .fa.fa-check{
+        font-weight: 400;
+        margin-right: 0.5rem; 
+    }
+    .fa-times:before {
+        content: "\f057";
+        font-size: 1.25rem;
+    }
+    .fa-check:before {
+        content: "\f058";
+    }
+    &.ui-messages {
+        margin: auto;
+        padding: 1em 2em 1em 2em;
+    }
+}
+
+.ui-messages {
+    width:100%;
+    border-radius: 5px !important;
+    // float: right;
+    // margin-top: 10px !important;
+    // margin-right: 10px !important;
+ }
+.ui-messages-close {
+     margin-top: 15px;
+     margin-right: 10px;
+ }
+.ui-messages-close .fa-times::before {
+     content: "\F00d";
+}
+.ui-messages .ui-messages-icon {
+    font-size: 1.5em;
+}
+// Close toast
+.ui-messages.ui-messages-error {
+     background-color: #FFE4E4;
+     border-color: #E74C3C;
+     color: #E74C3C !important;
+ }
+.ui-messages.ui-messages-error .ui-messages-close {
+     color: #E74C3C !important;
+ }
+.ui-messages.ui-messages-success {
+    background-color: #D6FBE5;
+    border-color: #27AE60;
+    color: #27AE60 !important;
+}
+.ui-messages.ui-messages-success .ui-messages-close {
+    color: #27AE60 !important;
+}
+.ui-messages.ui-messages-warn {
+    background-color: #FFF8E3;
+    border-color: #FFBF00;
+    color: #FFBF00 !important;
+}
+.ui-messages.ui-messages-warn .ui-messages-close {
+    color: #FFBF00 !important;
+}
+.ui-messages.ui-messages-info {
+    background-color: #E6F0FF;
+    border-color: #6FAAFB;
+    color: #6FAAFB !important;
+}
+.ui-messages.ui-messages-info .ui-messages-close {
+    color: #6FAAFB !important;
+}
+
+
+// toast Style
+.ui-toast-message{
+    border-radius: 5px !important;  
+    top:65px;
+    padding: 10px 0px;
+}
+.loginToast .ui-toast-message{
+    top:0px !important;
+  }
+.ui-toast .ui-toast-icon{
+    padding: 20px 0px;
+    font-size: 23px;
+}
+.ui-toast .ui-toast-close-icon{
+    padding: 2px;
+}
+.ui-toast-message .ui-toast-icon.fa-times::before {
+    content: "\F057";
+  }
+.ui-toast-message .ui-toast-icon.fa-check::before {
+    content: "\F058";
+  }
+.ui-toast-message.ui-toast-message-error {
+    background-color: #FFE4E4;
+    border-color: #E74C3C;
+    color: #E74C3C !important;
+}
+.ui-toast-message.ui-toast-message-success {
+    background-color: #D6FBE5;
+    border-color: #27AE60;
+    color: #27AE60 !important;
+}
+.ui-toast-message.ui-toast-message-warn {
+    background-color: #FFF8E3;
+    border-color: #FFBF00;
+    color: #FFBF00 !important;
+}
+.ui-toast-message.ui-toast-message-info {
+    background-color: #E6F0FF;
+    border-color: #6FAAFB;
+    color: #6FAAFB !important;
+}
+.ui-toast-detail {
+    font-weight: bold;
+}
+.ui-toast-message-text-content {
+    word-break: break-word;
+}
+
+// confirm Popup
+roots-confirmdialog .ui-button {
+    background-color: #205DB1;
+    color: #fff;
+    border-radius: 3px !important;
+    padding: 0px 15px !important;
+    font-size: 16px !important;
+    height: 35px !important;
+    margin: 0px 8px !important;
+}
+
+// roots-confirmdialog .ui-button:hover {
+//     background-color: #001a3d !important;
+//     border: 1px solid #001a3d !important;
+//     color: #FFFFFF !important;
+//     border-radius: 3px !important;
+//     padding: 0px 15px !important;
+//     font-size: 16px !important;
+//     height: 35px !important;
+//     margin: 0px 8px !important;
+// }
+// .acceptButtonStyleClass {
+//     background-color: #E74C3C;
+// }

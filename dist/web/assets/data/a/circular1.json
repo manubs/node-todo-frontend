@@ -1,0 +1,9 @@
+{"records": 
+    [
+        {"id": "Ref.DGBA.GAD.No 11303/45.01.003/2004-05",  "primary":"Yes", "documentType": "Circular", "documentDate":"02/12/2019","confidential":"public","action":"Request View/Linking Rights","actionCheck":"true"},
+        {"id": "Ref.DGBA.GAD.No 11303/45.01.003/2004-05", "primary":"No", "documentType": "Circular", "documentDate":"02/12/2019","confidential":"public","action":"LInk","actionCheck":"false"},
+        {"id":"Ref.DGBA.GAD.No 11303/45.01.003/2004-05", "primary":"No", "documentType": "Circular", "documentDate":"02/12/2019","confidential":"public","action":"link","actionCheck":"false"}
+       
+  ],
+  "totalRecords": 5
+}

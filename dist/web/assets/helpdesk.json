@@ -1,0 +1,16 @@
+{
+ "data": {
+    "users":[{"id":"1","fileName":"QuickGuide-UserManagement"},
+             {"id":"2","fileName":"How to Login?"},
+             {"id":"3","fileName":"Privilages Guide for Users"}],
+    "compliance":[{"id":"1","fileName":"QuickGuide-ComplianceManagement"},
+             {"id":"2","fileName":"How to Navigate to Compliance?"},
+             {"id":"3","fileName":"Privilages Guide for Compliance"}],
+    "incident":[{"id":"1","fileName":"QuickGuide-IncidentManagement"},
+             {"id":"2","fileName":"How to Navigate to Incident?"},
+             {"id":"3","fileName":"Privilages Guide for Incident"}],
+    "inspection":[{"id":"1","fileName":"QuickGuide-InspectionManagement"},
+             {"id":"2","fileName":"How to Navigate to Inspection?"},
+             {"id":"3","fileName":"Privilages Guide for Inspection"}]
+   }
+}

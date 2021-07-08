@@ -1,0 +1,58 @@
+@import '_colors';
+.panel-accordion.ui-accordion {
+    .ui-accordion-header{
+        margin-top: 0;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        font-size: 1.125rem !important;
+        a{
+            background-color: #f5f5f5;
+        }   
+    }
+    .ui-accordion-content{
+        padding: 0 0;
+    }
+    .ui-accordion-toggle-icon.fa-chevron-right:before {
+        content: "\f078";
+    }
+    .ui-accordion-toggle-icon.fa-chevron-down:before {
+        content: "\f077";
+    }
+}
+
+body .ui-accordion .ui-accordion-header {
+    border-radius: 0;
+    margin-top: 5px;
+    a{
+        padding: 0.8rem 0.7rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        background-color: #f2f2f2;
+        font-weight: 600;
+        color: black;
+            span:first-child{
+                margin-left: auto;
+            }
+    }
+}
+body .ui-accordion .ui-accordion-header.ui-state-active {
+    background-color: $secondaryColor;
+    // color: #323E43;
+    color: black;
+    *{
+        color: black !important;
+    }
+    border: none;
+    a{
+        background-color: #E8F0FC;
+        color: #0C2140;
+        border: 1px solid #CCD6E3;
+    }
+}
+
+body .ui-accordion .ui-accordion-content {
+    border: 1px solid $secondaryColor;
+    padding: 0.7rem 0.7rem;
+}

@@ -1,0 +1,278 @@
+{
+    "common": {
+        "buttons": {
+            "read": "Read",
+            "execute": "Execute",
+            "back": "back",
+            "reset": "Reset",
+            "search": "Search",
+            "create": "Create",
+            "apply": "Apply",
+            "cancel": "Cancel",
+            "ok": "Ok",
+            "approve": "Approve",
+            "reject": "Reject",
+            "save": "Save",
+            "update": "Update",
+            "submit": "Submit",
+            "yes": "Yes",
+            "no": "No",
+            "totalResults": "Total Results",
+            "confirm": "Confirm",
+            "rejectioncomments": "Rejection Comments",
+            "action": "Action",
+            "publish": "Publish",
+            "sendforApproval": "Send for Approval",
+            "submitforApproval": "Submit for Approval",
+            "saveasDraft": "Save as Draft",
+            "view": "View",
+            "all": "All",
+            "approved": "Approve",
+            "public": "Public",
+            "confidential": "Confidential",
+            "internal": "Internal",
+            "totalRecords": "Total Records",
+            "collapseAll": "Collapse All",
+            "expandAll": "Expand All",
+            "next": "Next",
+            "add": "Add",
+            "delete": "Delete",
+            "select": "Select",
+            "saveForApproval": "Save for Approval",
+            "createDocumentMaster": "Create Document Master",
+            "uploadFile": "Upload",
+            "close": "Close",
+            "noRecordsFound": "No records found",
+            "send": "Send"
+            
+        }
+    },
+    "complaintAdmin": {
+        "title": {
+            "createComplaint": "Create Complaint",
+            "modifyComplaint": "Modify Complaint",
+            "complaintInformation": "Complaint Information",
+            "complaintAgainstInfo": "Complaint Against Information",
+            "complaintSearchCriteria": "Complaint - Search Criteria",
+            "officeNotesHistory":"Office Notes History",
+            "responseHistory":"Response History"
+        },
+        "complaintInfo": {
+            "bankId": "Bank Id",
+            "noteId": "Note Id",
+            "officeNoteDesc": "Office Note Description",
+            "addofficeNotes": "Add Office Notes",
+            "closureRemarks": "Closure Remarks",
+            "addBankDetails": "Add Bank Details",
+            "seCategory": "se Category",
+            "bankName": "Bank Name",
+            "ssmName": "SSM Name",
+            "addApprovers": "Add Approvers",
+            "complaintName": "Complaint Name",
+            "letterRefNum": "Letter Reference Number",
+            "uploadAttachments": "Upload Attachments",
+            "inwardNumber": "Inward Number",
+            "inwardNote": "Inward Note",
+            "complaintCategory": "Complaint Category",
+            "otherCategory": "Other Category",
+            "complaintSource": "Complaint Source",
+            "issueType": "Complaint Type",
+            "ACG": "ACG",
+            "PPG": "PPG",
+            "complaintSubject": "Complaint Subject",
+            "complaintDescription": "Complaint Description",
+            "duplicateReference": "Duplicate Complaint Reference",
+            "complaintDate": "Complaint Date",
+            "dateOfReceipt": "Date Of Receipt",
+            "complainantName": "Complaint Name",
+            "referenceNumber": "Reference Number",
+            "referenceDate": "Reference Date",
+            "complaintAttachments": "Complaint Attachments",
+            "closeComplaint": "Close Complaint",
+            "reasonForClosure": "Reason for closure",
+            "outwardNumber": "Outward Number"
+        },
+        "deptTableFields": [
+            {
+                "dataField": "bankName",
+                "header": "SE Name",
+                "width": "185px"
+            },
+            {
+                "dataField": "statusDescriptionSE",
+                "header": "Status",
+                "width": "160px"
+            }
+        ],
+        "peerTableFields": [
+            {
+                "dataField": "bankName",
+                "header": "SE Name",
+                "width": "185px"
+            },
+            {
+                "dataField": "statusDescriptionSE",
+                "header": "Status",
+                "width": "160px"
+            },
+            {
+                "dataField": "complaintReviewAction",
+                "header": "Action",
+                "width": "160px"
+            }
+        ],
+        "complaintDescTableFields": [
+            {
+                "dataField": "select",
+                "header": "Select",
+                "width": "130px"
+            },
+            {
+                "dataField": "code",
+                "header": "Complaint Description",
+                "width": "530px"
+            }
+        ],
+        "listPopupTableFields": [
+            {
+                "dataField": "select",
+                "header": "Select",
+                "width": "50px"
+            },
+            {
+                "dataField": "inWardNumber",
+                "header": "Inward Number",
+                "width": "330px"
+            },
+            {
+                "dataField": "duplicateCompRef",
+                "header": "Complaint Name",
+                "width": "190px"
+            },
+            {
+                "dataField": "subject",
+                "header": "Subject",
+                "width": "290px"
+            }
+        ],
+        "compManageTableFields": [
+            {
+                "dataField": "inwardNumber",
+                "header": "Inward Number",
+                "width": "320px"
+            },
+            {
+                "dataField": "issueType",
+                "header": "Complaint Type",
+                "width": "180px"
+            },
+            {
+                "dataField": "seType",
+                "header": "SE Type",
+                "width": "180px"
+            },
+            {
+                "dataField": "inwardNote",
+                "header": "Inward Note",
+                "width": "180px"
+            },
+            {
+                "dataField": "sourceName",
+                "header": "Complaint Source",
+                "width": "190px"
+            },
+            {
+                "dataField": "categoryName",
+                "header": "Complaint Category",
+                "width": "200px"
+            },
+            {
+                "dataField": "statusDescription",
+                "header": "Complaint Status",
+                "width": "200px"
+            },
+            {
+                "dataField": "createdOn",
+                "header": "Created On",
+                "width": "190px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "80px"
+            }
+        ],
+        "compManageTableFieldsForSE": [
+            {
+                "dataField": "inwardNumber",
+                "header": "Inward Number",
+                "width": "320px"
+            },
+            {
+                "dataField": "statusDescription",
+                "header": "Complaint Status",
+                "width": "200px"
+            },
+            {
+                "dataField": "updatedOn",
+                "header": "Updated On",
+                "width": "190px"
+            },
+            {
+                "dataField": "action",
+                "header": "Action",
+                "width": "80px"
+            }
+        ],
+        "complaintAgainstInfo": {
+            "complaintAgainst": "Complaint Against",
+            "SE": "SE",
+            "NOSE": "NOSE",
+            "addSE": "Add SE",
+            "addBusinessUnit": "Add Business Unit",
+            "seCategory": "SE Category",
+            "seEntity": "Supervised Entity",
+            "complaintDetails": "Complaint Details",
+            "ssmName": "SSM Name",
+            "attachments": "Attachments",
+            "bussinessUnit": "Bussiness Unit",
+            "buattachments": "Attachments"
+        },
+        "allocationDetail": {
+            "allocationDetails": "Allocation Details",
+            "isPeerReferenceRequired": "Is Peer Reference Required ?",
+            "forwardTo": "Forward To",
+            "resource": "Resource",
+            "selectResource": "Select Resource",
+            "officeNotes": "Office Notes",
+            "viewOfficeNotesHistory": "View Office Notes History",
+            "officeNotesAttachments": "Office Notes Attachments",
+            "draftLetterAttachments": "Draft Letter Attachments",
+            "viewAllPeerReviewHistory": "View All PeerReview History",
+            "viewAllOfficeNotes":"View All Office Notes"
+            
+        }
+    },
+    "complaintReview": {
+        "title": {
+            "complaintSummary": "Complaint Summary"
+        },
+        "fields": {
+            "isNextLevelApprovalRequired": "Is Next Level Approval Required ?",
+            "uploadAttachments": "Office Notes Attachments",
+            "uploadFile": "Upload Files",
+            "attachDraftLetter": "Attach Draft Letter",
+            "draftLetterAttachments": "Draft Letter Attachments",
+            "fairLetterAttachments": "Fair Letter Attachments",
+            "officeAttachments": "Office Attachments",
+            "attachments": "Attachments",
+            "draftLetters": "Draft Letters",
+            "attachFairLetters": "Attach Fair Letter",
+            "forwardToSSM": "Forward To SSM",
+            "forwardToOtherDepartment": "Forward To Other Department",
+            "responseNotes": "Response Notes",
+            "approveDraftLetter": "Approve Draft Letter",
+            "requestforClarifications":"Request for Clarifications ?"
+        }
+    }
+}

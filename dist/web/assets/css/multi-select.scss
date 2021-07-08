@@ -1,0 +1,29 @@
+.show-SelectAll .ui-multiselect-header{
+    .ui-chkbox{
+        position: relative;
+        &:before{
+            content: "Select All";
+            width: 100px;
+            height: 20px;
+            position: absolute;
+            left: 20px;
+            bottom: 0;
+            font-weight: 600;
+        }
+    }
+    .ui-multiselect-filter-container{
+        display: none;
+    }
+}
+.ui-multiselect-header .ui-multiselect-filter-container{
+    width: 86% !important;
+}
+.ui-multiselect-panel .ui-multiselect-header .ui-chkbox {
+    margin-right: 0.5em;
+    float: none;
+    vertical-align: middle;
+}
+.ui-multiselect .ui-multiselect-panel{
+    width: 100% !important;
+}
+

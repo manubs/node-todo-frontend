@@ -1,0 +1,43 @@
+<svg id="Group_3882" data-name="Group 3882" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1081" viewBox="0 0 1920 1081">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.996" x2="0.5" y2="0.006" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#205db1"/>
+      <stop offset="1" stop-color="#1d4eb2"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_820" data-name="Rectangle 820" width="1920" height="1081" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="1.499" y1="4.753" x2="2.499" y2="4.753" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.167" y1="0.167" x2="1.152" y2="1.152" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.167" y1="0.167" x2="1.152" y2="1.152" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#206cb1"/>
+      <stop offset="1" stop-color="#205bb1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.167" y1="0.167" x2="1.152" y2="1.152" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#205db1"/>
+      <stop offset="0.352" stop-color="#1d4eb2"/>
+      <stop offset="1" stop-color="#1d4eb2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.244" y1="0.101" x2="0.826" y2="1.007" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#205db1"/>
+      <stop offset="1" stop-color="#1e599e"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_2081" data-name="Path 2081" d="M0,0H1920V1080H0Z" transform="translate(0 1)" fill="url(#linear-gradient)"/>
+  <g id="Group_1626" data-name="Group 1626">
+    <g id="Group_1625" data-name="Group 1625" clip-path="url(#clip-path)">
+      <g id="Group_1624" data-name="Group 1624" transform="translate(-191.178 -42.875)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="65" cy="64.5" rx="65" ry="64.5" transform="translate(1744.178 949.875)" opacity="0.8" fill="url(#linear-gradient-2)"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="143.5" cy="143.5" r="143.5" transform="translate(1126.178 330.875)" opacity="0.5" fill="url(#linear-gradient-3)"/>
+        <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="45" cy="44.5" rx="45" ry="44.5" transform="translate(1923.178 713.875)" opacity="0.5" fill="url(#linear-gradient-4)"/>
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="22.5" cy="22.5" r="22.5" transform="translate(2006.178 1169.875)" opacity="0.5" fill="url(#linear-gradient-4)"/>
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="125" cy="125" r="125" transform="translate(156.178 132.875)" opacity="0.8" fill="url(#linear-gradient-6)"/>
+        <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="309" cy="309.5" rx="309" ry="309.5" transform="translate(0.178 840.875)" opacity="0.8" fill="url(#linear-gradient-7)"/>
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="53.5" cy="53.5" r="53.5" transform="translate(496.178 247.875)" opacity="0.5" fill="url(#linear-gradient-8)"/>
+        <circle id="Ellipse_8" data-name="Ellipse 8" cx="37.252" cy="37.252" r="37.252" transform="translate(1870.313 1048.668)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="1" opacity="0.5"/>
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="139.869" cy="139.869" r="139.869" transform="translate(1832.358)" fill="none" stroke="#2468ba" stroke-miterlimit="10" stroke-width="1" opacity="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

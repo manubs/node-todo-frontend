@@ -1,0 +1,10 @@
+{"records": 
+    [
+        {"sl":"1","id": "DEPT/DIV orCELL/521/001.111.999/2019-2020", "primary":"No", "documentType": "Circular", "documentDate":"02/12/2019","confidential":"public","action":"Request View/Linking Rights","actionCheck":"true","src":""},
+        {"sl":"2","id": "DGBA.GBD.No.250/31.12.010/2019-20", "primary":"No", "documentType": "Circular", "documentDate":"02/12/2019","confidential":"public","action":"Link","actionCheck":"false","src":"https://rbidocs.rbi.org.in/rdocs/notification/PDFs/MCPAC30879633C25A463495B283B472798FFA.PDF"},
+        {"sl":"3","id": "FIDD.CO.LBS.BC.No.06/02.01.001/2019-20",  "primary":"No", "documentType": "Circular", "documentDate":"02/12/2019","confidential":"public","action":"Link","actionCheck":"false","src":"https://rbidocs.rbi.org.in/rdocs/notification/PDFs/10MCA66C09ECD99148DF8ABF4C39E7901BFE.PDF"},
+        {"sl":"4","id": "DGBA.GBD.No.521/31.02.007/2019-20",  "primary":"Yes", "documentType": "Circular", "documentDate":"02/12/2019","confidential":"public","action":"Link","actionCheck":"true","src":"https://rbidocs.rbi.org.in/rdocs/notification/PDFs/57MC35ADFBB08A794304B76F3465381E382D.PDF"}
+       
+  ],
+  "totalRecords": 5
+}
